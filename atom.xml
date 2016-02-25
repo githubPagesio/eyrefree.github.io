@@ -4,13 +4,13 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>skim</title>
- <link href="http://skim.cc/atom.xml" rel="self"/>
- <link href="http://skim.cc/"/>
+ <title>eyrefree</title>
+ <link href="http://blog.eyrefree.org/atom.xml" rel="self"/>
+ <link href="http://blog.eyrefree.org/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://skim.cc/</id>
+ <id>http://blog.eyrefree.org/</id>
  <author>
-   <name>skim</name>
+   <name>eyrefree</name>
  </author>
 
  {% for post in site.posts limit:100 %}
@@ -19,9 +19,9 @@ layout: nil
    {% for category in post.categories %}
    <category term="{{category}}" />
    {% endfor %}
-   <link href="http://skim.cc{{ post.url }}"/>
+   <link href="http://blog.eyrefree.org{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://skim.cc{{ post.id }}</id>
+   <id>http://blog.eyrefree.org{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
