@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OS X 下使用 Jekyll 和 Coding Pages 搭建静态博客
-date: 2016-03-01 09:00:00 -05:00
+date: 2016-02-29 10:00:00 -05:00
 categories:
   -- blog
 ---
