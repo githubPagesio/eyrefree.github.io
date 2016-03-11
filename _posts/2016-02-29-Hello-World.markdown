@@ -6,4 +6,4 @@ categories:
   -- init
 ---
 
-Hello World.
+![Hello World.](/images/helloworld.jpg)
