@@ -122,11 +122,11 @@ http://eyrefree.coding.me/myblog
 有时可能由于缓存或者解析时间的问题，稍等片刻即可。 
 
 # 11，编写博文  
-接下来就是日常的博文编写啦，这里是使用 markdown 格式的，编写完成后添加到 source/_posts 目录下 push 到 Coding 服务器即可，具体可参考[这篇博文](http://www.jianshu.com/p/3c7ddd48bfa9)，Markdown 的一些语法可以参考：  
+接下来就是日常的博文编写啦，这里是使用 markdown 格式的，编写完成后添加到 source/_posts 目录下然后按照第 8 步的方法部署到 Coding 服务器即可，具体可参考[这篇博文](http://www.jianshu.com/p/3c7ddd48bfa9)，Markdown 的一些语法可以参考：  
 [http://wowubuntu.com/markdown/](http://wowubuntu.com/markdown/)
 
 ---
-嘛，大概就是这些内容了，有遗漏的话会继续补充，😝，本博客开启了 fexo 模版的 Google 统计，Disqus 评论，RSS 订阅，站内搜索等，详情参见我的 Coding 仓库：
+嘛，大概就是这些内容了，有遗漏的话会继续补充，😝，[我的博客](http://www.eyrefree.org)开启了 Fexo 模版的 Google 统计，Disqus 评论，RSS 订阅，站内搜索等，详情参见我的 Coding 仓库的 Hexo 分支：
 [https://coding.net/u/eyrefree/p/blog.eyrefree.org/git](https://coding.net/u/eyrefree/p/blog.eyrefree.org/git)
 
 以上。  

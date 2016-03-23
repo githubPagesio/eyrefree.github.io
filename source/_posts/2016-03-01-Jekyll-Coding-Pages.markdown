@@ -67,7 +67,7 @@ git clone https://github.com/sl4m/skim.cc.git
 接下来就是日常的博文编写啦，这里是使用 markdown 格式的，编写完成后添加到 _posts 目录下 push 到 Coding 服务器即可，具体可参考[这篇博文](https://segmentfault.com/a/1190000000406013)。
 
 ---
-嘛，大概就是这些内容了，有遗漏的话后期会继续补充，😝，在原模版基础上将 Google 统计，Disqus 评论，feedburner 等替换为了自己的，其他的一些修改详情参见我的 Coding 仓库：
+嘛，大概就是这些内容了，有遗漏的话后期会继续补充，😝，[我的博客](http://www.eyrefree.org)在原模版基础上将 Google 统计，Disqus 评论，feedburner 等替换为了自己的，其他的一些修改详情参见我的 Coding 仓库的 Jekyll 分支：
 [https://coding.net/u/eyrefree/p/blog.eyrefree.org/git](https://coding.net/u/eyrefree/p/blog.eyrefree.org/git)
 
 以上。  
