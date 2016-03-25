@@ -7,5 +7,5 @@ tag: Nothing
 ---
 
 <center>
-![Hello World.](/images/helloworld.jpg)
+![Hello World](/images/Hello-World-1.jpg)
 </center>
