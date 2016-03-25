@@ -1,1 +1,6 @@
-<%- partial('_partial/archive', {pagination: 2, index: true}) %>
+<% if(theme.init_page_content === 'POST') { %>
+  <%- partial('/archive') %>
+<% } else { %>
+  <%- partial('_partial/home') %>
+<% } %>
+

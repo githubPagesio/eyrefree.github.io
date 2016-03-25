@@ -1,36 +1,203 @@
-# Header
-menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
+# Blog info
+blog_name: EyreFree
+slogan: Not all those who wander are lost.
+url: http://www.eyrefree.org
 
-# Content
-excerpt_link: Read More
-fancybox: true
+# Set avatar (Absolute url and relative url)
+avatar: https://avatars1.githubusercontent.com/u/10757132?v=3&s=460
 
-# Sidebar
-sidebar: right
-widgets:
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
+# Set favicon
+favicon: /favicon.ico
 
-# display widgets at the bottom of index pages (pagination == 2)
-index_widgets:
-# - category
-# - tagcloud
-# - archive
+# custom font-family 暂时只支持这3种英文字体
+blog_name_font_familiy: calligraffittiregular
+# blog_name_font_familiy: Lobster-Regular
+# blog_name_font_familiy: PoiretOne-Regular
 
-# widget behavior
-archive_type: 'monthly'
-show_count: false
+# Custom CSS style
+personal_style: /css/eyrefree.css
 
-# Miscellaneous
-google_analytics:
-favicon: /favicon.png
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
+home:
+  # background_image: /images/bg.jpg
+  background_scheme: light # dark、light
+
+
+
+# For seo
+keywords: EyreFree,iOS,Swift,Objective-C
+
+
+init_page_content: HOME_NAV  # HOME_NAV | POST
+
+home_nav:
+  - name: 博客
+    url: /archives
+    target: _blank
+  - name: 简书
+    url: http://www.jianshu.com/users/e4d1f69048ea
+    target: _blank
+  - name: Coding
+    url: https://coding.net/u/eyrefree
+    target: _blank
+  - name: GitHub
+    url: http://github.com/eyrefree
+    target: _blank
+  - name: V2EX
+    url: http://v2ex.com/member/eyrefree
+    target: _blank
+  - name: CSDN
+    url: http://my.csdn.net/EyreFree
+    target: _blank
+
+# config page nav
+page_nav:
+  - name: 博客
+    url: /archives/
+    target_blank: false # 不在新页面打开
+  - name: 分类
+    url: /category/
+    target_blank: false
+  - name: 标签
+    url: /tag/
+    target_blank: false
+  - name: 友链
+    url: /link/
+    target_blank: false
+  - name: 关于
+    url: /about/
+    target_blank: false
+  - name: RSS
+    url: /atom.xml
+    target_blank: true # 在新页面打开
+  - name: 搜索
+    url: /search/
+    target_blank: false
+
+page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
+
+
+# 面包屑
+breadcrumb:
+  isShow: true # true|fase
+
+# 盒子
+toolbox:
+  isShow: true # true|fase
+
+# set backtop show or hide
+backtop:
+  home: false
+  archive: false
+  category: true
+  tag: true
+  post: true
+  link: false
+  about: false
+
+
+post:
+  header_align: CENTER # LEFT|CENTER
+  showToc: true # true|false
+  showComments: true
+
+link:
+  - name: Breaker's Blog
+    info: Coding and Hacking
+    url: http://blog.0x7c00.cn/
+    avatar: https://avatars0.githubusercontent.com/u/3455675?v=3&s=460
+  - name: Vincent Yao
+    info: 全栈工程师
+    url: http://blog.ookcode.com/
+    avatar: https://avatars1.githubusercontent.com/u/3356083?v=3&s=460
+  - name: TimothyQiu's Blog
+    info: Hi, this is Timothy Qiu. I'm an old programmer.
+    url: http://timothyqiu.com/
+    avatar: https://avatars3.githubusercontent.com/u/372476?v=3&s=460
+  - name: 沉没大陆
+    info: Daterlove
+    url: http://www.sinkland.cn/
+    avatar: https://avatars0.githubusercontent.com/u/11631445?v=3&s=460
+
+
+about:
+  - type: me
+    icon: icon-user
+    text_value:
+    - "1993, Boy, ECIT."
+    - "并非所有流浪者都迷失了自我."
+    - "iOSer, Swift / Objective-C / C / C++."
+  - type: weibo
+    icon: icon-weibo
+    text_key: 微博
+    text_value: "@EyreFree"
+    text_value_url: http://weibo.com/eyrefree777
+  - type: mail
+    icon: icon-mail
+    text_key: 邮箱
+    text_value: "eyrefree@eyrefree.org"
+    text_value_url: mailto:eyrefree@eyrefree.org
+  - type: location
+    icon: icon-location
+    text_value: 无锡
+
+# Stats
+google_analytics: UA-74357398-1
+baidu_analytics: 638f7245dab1e13e3d8fbdd9cc3b0895
+
+# Comment service
+disqus_shortname: eyrefree
+#duoshuo_shortname: eyrefree
+
+#project:
+#  - type: personal
+#    name: fexo
+#    url: https://github.com/forsigner/fexo
+#    intro: A minimalist design theme for hexo
+#  - type: company
+#    name: Fexo
+#    url: https://github.com/forsigner/fexo
+#    intro: A minimalist design theme for hexo
+#  - type: personal
+#    name: beside
+#    url: https://github.com/forsigner/beside
+#    intro: I need you beside me
+#  - type: personal
+#    name: web-fontmin
+#    url: https://github.com/forsigner/web-fontmin
+#    intro: 字体子集化，在线提取你需要的字体
+#  - type: personal
+#    name: magic-check
+#    url: https://github.com/forsigner/magic-check
+#    intro: Beautify Radio and Checkbox with pure CSS
+#  - type: personal
+#    name: nice-bar
+#    url: https://github.com/forsigner/nice-bar
+#    intro: A nice and lightweight scrollbar
+#  - type: personal
+#    name: angular-nice-bar
+#    url: https://github.com/forsigner/angular-nice-bar
+#    intro: A nice and lightweight scrollbar in Angular
+#  - type: personal
+#    name: fo-popover
+#    url: https://github.com/forsigner/fo-popover
+#    intro: A nice popover for Angular
+#  - type: personal
+#    name: fo-tooltip
+#    url: A nice tooltip for Angular
+#    intro: https://github.com/forsigner/fo-tooltip
+#  - type: personal
+#    name: fo-modal
+#    url: https://github.com/forsigner/fo-modal
+#    intro: A nice modal for Angular
+#  - type: personal
+#    name: mocer
+#    url: https://github.com/forsigner/mocer
+#    intro: Setup a mock server easily
+#  - type: personal
+#    name: node-pngdefry
+#    url: https://github.com/forsigner/node-pngdefry
+#    intro: Repairing iPhone fried PNGs using Node.js
+#  - type: personal
+#    name: ng-simditor
+#    url: https://github.com/forsigner/ng-simditor
+#    intro: Angular directive for simditor

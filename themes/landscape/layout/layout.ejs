@@ -1,18 +1,21 @@
 <%- partial('_partial/head') %>
 <body>
-  <div id="container">
-    <div id="wrap">
-      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
-      <div class="outer">
-        <section id="main"><%- body %></section>
-        <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
-          <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
-        <% } %>
-      </div>
-      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
-    </div>
-    <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
-    <%- partial('_partial/after-footer') %>
-  </div>
+
+  <% if (page.base !== '') { %>
+    <a href="#modal-one" class="toolbox-mobile">盒子</a>
+  <% } %>
+
+  <%- body %>
+
+  <%- partial('_partial/component/modal') %>
+
+
+  <% if (theme.post.showComments && page.layout === 'post'){ %>
+    <%- partial('_partial/component/comments', {className: 'comments-post'}) %>
+  <% } else if (page.comments) { %>
+    <%- partial('_partial/component/comments', {className: 'comments-' + page.layout}) %>
+  <% } %>
+
+  <%- partial('_partial/load-script') %>
 </body>
 </html>

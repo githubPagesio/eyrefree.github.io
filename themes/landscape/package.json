@@ -1,12 +1,16 @@
 {
-  "name": "hexo-theme-landscape",
-  "version": "0.0.1",
-  "private": true,
+  "name": "fexo",
+  "version": "1.0.0",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "load-grunt-tasks": "~0.2.0",
-    "grunt-git": "~0.2.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-copy": "~0.4.1"
+    "autoprefixer": "^6.3.3",
+    "babel": "^6.5.2",
+    "babel-eslint": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rev-easy": "^1.1.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3"
   }
 }
