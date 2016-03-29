@@ -25,7 +25,7 @@ cd; vi .bash_profile
 ```
 在文件中加入该语句：
 ```bash
-$ export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:$PATH
 ```
 并保存退出，重新加载shell让设置的环境变量生效：
 ```bash
@@ -45,7 +45,23 @@ sudo npm install -g hexo
 ```
 因为可能有文件读写权限的问题，这里推荐用 sudo，输入密码后会开始安装，时间可能比较长，耐心等待，如果长时间卡在某一步 Ctrl + C 终止当前任务后重试即可。
 
-# 5，本地建立博客  
+# 5，安装 Server 组件
+安装 Hexo 完成后我们在终端中执行如下命令：
+```bash
+hexo
+```
+因为这并不是一个完整的命令，所以这时我们可以看到 hexo 输出的帮助信息，如下图所示：
+<center>
+![Hexo-Coding-Pages-1](/images/Hexo-Coding-Pages-1.png)
+</center>
+
+我们可以在左边的 Commands 列表中查看我们需要的命令是否已成功安装，因为某些版本的 Hexo 的 Server 模块需要独立安装所以这里我们并没有看到 server 命令，我们可以执行下面这条命令来进行安装，如果有的话可以跳过这一步：
+```bash
+sudo npm install hexo-server --save
+```
+如果安装过程中出现一些问题导致某些模块没有安装成功的也可以通过类似的方式单独安装某个模块进行修复。
+
+# 6，本地建立博客  
 安装完成后，新建一个目录如 myblog 用于存放博客，切换到该目录下执行以下指令，Hexo 即会在目标文件夹初步生成博客所需要的所有文件：
 ```bash
 hexo init
@@ -57,10 +73,10 @@ hexo init
 https://github.com/forsigner/fexo  
 在这里对原作者 forsigner 表示感谢，🙏
 
-# 6，安装 RSS 插件（可忽略）  
+# 7，安装 RSS 插件（可忽略）  
 到博客所在目录 myblog 下，利用该命令安装 RSS 插件，暂时不需添加 RSS 功能的同学可忽略该步骤：
 ```bash
-sudo npm install hexo-generator-feed —save
+sudo npm install hexo-generator-feed --save
 ```
 编辑 myblog 目录下的 _config.yml，添加如下代码开启 RSS 功能：  
 ```bash
@@ -68,7 +84,7 @@ rss: /atom.xml
 ```
 RSS 地址保持默认即可，不需要多做修改。
 
-# 7，本地效果预览  
+# 8，本地效果预览  
 在终端使用 cd 命令切换到博客所在目录 myblog，执行如下命令生成静态博客页面并启动本地服务器，若成功可在浏览器中访问 http://localhost:4000/ 进行预览。 
 ```bash
 hexo generate
@@ -80,7 +96,7 @@ hexo g
 hexo s
 ```
 
-# 8，部署到 Coding Pages  
+# 9，部署到 Coding Pages  
 在 Coding 新建一个项目，假设为 myblog，然后修改本地博客目录下的 _config.yml 文件，根据[官方文档](https://hexo.io/docs/deployment.html)的描述，修改以下几个参数，这些参数一般在文件底部：
 ```bash
 deploy:
@@ -108,25 +124,37 @@ hexo s
 如果在 _config.yml 的 repo 处填写的仓库地址是 https 形式的，在部署时可能需要输入你的 Coding 账号和密码。  
 然后切换到该项目的 Pages 标签，开启 pages 服务，分支名填写为我们在_config.yml 文件中设定的分支，我的是 master。
 
-# 9，服务器效果预览  
+# 10，服务器效果预览  
 pages 服务开启完成后，Coding 会提供一个类似 {user_name}.coding.me/{project_name} 的链接用于访问，例如用户名为 eyrefree 项目名为 myblog 的链接应该是： 
 ```bash
 http://eyrefree.coding.me/myblog
 ```
 访问该链接即可进行预览，由于我们引用的资源很多是和域名相关的，导致这里可能会有资源加载失败的情况，只能出现部分文字，接下来我们将域名绑定后即可恢复正常。
 
-# 10，绑定域名  
+# 11，绑定域名  
 默认提供的链接可能过长或者不便于日常使用，我们也可以绑定自己的域名。  
 首先，需要提前准备一个域名，然后打开自己的域名控制面板，新建一个 CNAME 解析到 {user_name}.coding.me，例如我的是将 www.eyrefree.org 解析到 eyrefree.coding.me；  
 然后，打开 Coding 项目页面切换到 pages 项，填入刚才的设置解析的域名 www.eyrefree.org，点击“添加域名绑定”按钮即可，在浏览器中直接访问 www.eyrefree.org 就能成功打开。  
 有时可能由于缓存或者解析时间的问题，稍等片刻即可。 
 
-# 11，编写博文  
+# 12，编写博文  
 接下来就是日常的博文编写啦，这里是使用 markdown 格式的，编写完成后添加到 source/_posts 目录下然后按照第 8 步的方法部署到 Coding 服务器即可，具体可参考[这篇博文](http://www.jianshu.com/p/3c7ddd48bfa9)，Markdown 的一些语法可以参考：  
 [http://wowubuntu.com/markdown/](http://wowubuntu.com/markdown/)
 
+# 13，常见问题
+若执行 hexo 命令时出现如下警告信息：
+```bash
+{ [Error: Cannot find module './build/Release/DTraceProviderBindings'] code: 'MODULE_NOT_FOUND' }
+{ [Error: Cannot find module './build/default/DTraceProviderBindings'] code: 'MODULE_NOT_FOUND' }
+{ [Error: Cannot find module './build/Debug/DTraceProviderBindings'] code: 'MODULE_NOT_FOUND' }
+```
+可以尝试执行以下命令修复：
+```bash
+sudo npm install hexo --no-optional
+```
+
 ---
-嘛，大概就是这些内容了，有遗漏的话会继续补充，😝，[我的博客](http://www.eyrefree.org)开启了 Fexo 模版的 Google 统计，Disqus 评论，RSS 订阅，站内搜索等，详情参见我的 Coding 仓库的 Hexo 分支：
+嘛，大概就是这些内容了，有遗漏的话会继续补充，😝。[我的博客](http://www.eyrefree.org)是用 Hexo 生成的使用了 Fexo 模版，开启了 Google 统计，Disqus 评论，RSS 订阅，站内搜索等，详情参见我的 Coding 仓库的 Hexo 分支：
 [https://coding.net/u/eyrefree/p/blog.eyrefree.org/git](https://coding.net/u/eyrefree/p/blog.eyrefree.org/git)
 
 以上。  
