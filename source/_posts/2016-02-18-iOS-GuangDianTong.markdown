@@ -58,8 +58,11 @@ EFGuangDianTong.sharedInstance.Schema2(
 若失败则会根据返回码输出具体失败原因，可以根据输出的错误信息来做相应的检查。
 
 ---
+以上。
+
+---
 附 EFGuangDianTong.swift 代码：
-```
+```swift
 //
 //  EFGuangDianTong.swift
 //  GuangDianTongDemo
@@ -305,6 +308,3 @@ class EFGuangDianTong {
     }
 }
 ```
-
----
-以上。
