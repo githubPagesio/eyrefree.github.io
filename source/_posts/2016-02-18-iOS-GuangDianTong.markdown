@@ -13,20 +13,23 @@ iOS 集成广点通移动 App 激活数据统计 API 上报方案，Demo 地址�
 # 一，获取参数
 ## 1，Apple ID
 Apple ID 是一个数字，每一个 iOS 应用都有一个 Apple ID，打开 [iTunesConnect](http://itunesconnect.apple.com)，点击我们所需要集成广点通的 App 进入详情页面，点击左边的“App 信息”，找到其中的“综合信息”一项，其中包含我们需要的 Apple ID，如下图所示：
+
 <center>
-![iOS-GuangDianTong](/images/iOS-GuangDianTong-1.png)
+![iOS-GuangDianTong-1](/images/iOS-GuangDianTong-1.png)
 </center>
 
 ## 2，UID
 UID 是一个数字，它是我们在广点通的账户 ID，打开[广点通](http://e.qq.com)进入管理平台，在最顶部的显示的账户信息中的“账户 ID”就是我们需要的 UID，如下图所示：
+
 <center>
-![iOS-GuangDianTong](/images/iOS-GuangDianTong-2.png)
+![iOS-GuangDianTong-2](/images/iOS-GuangDianTong-2.png)
 </center>
 
 ## 3，EncryptKey 和 SignKey
 每一个 AppID 广点通会分配给我们一个加密密钥 encrypt_key 和一个签名密钥 sign_key，打开[广点通](http://e.qq.com)进入管理平台，点击左边的“工具箱”然后选择“转化跟踪”，然后点击“创建新转化”，依次输入信息创建对应 App 的转化，注意“转化方案”一项选择“API方案二”，提交后会在列表中出现一个我们新创建的转化，点击“查看”，就会得到我们需要的 encrypt_key 和 sign_key，如下图所示：
+
 <center>
-![iOS-GuangDianTong](/images/iOS-GuangDianTong-3.png)
+![iOS-GuangDianTong-3](/images/iOS-GuangDianTong-3.png)
 </center>
 
 # 二，实现 API 上报方案

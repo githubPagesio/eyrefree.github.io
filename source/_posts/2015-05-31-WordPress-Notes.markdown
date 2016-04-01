@@ -21,8 +21,9 @@ tag: WordPress
  
 # 4、去除 Google 相关引用
 嗯，针对一般的主题设置上面这些应该已经差不多了，但是，由于 WP 的主题大部分作者是国外的，所以中间可能有些主题使用了谷歌字体或者谷歌地图之类的谷歌 API （很不幸，我使用的这个主题就使用了大量的这类东东，蓝后打开的时候死慢死慢的），简单地看了一下他人的解决办法，有使用 Disable Google Fonts 和 Disable Google Maps 这类插件来解提速的，大家可以试试，反正我用了还是慢得要shi（可能是还有其他 Google 的东东在里面？），然后用了比较原始但有效的方法：将网站整站打包下载然后用 Sublime Text 搜索所有包含 googleapis 的行，然后注释掉它们就可以了（嘛，貌似工作量略大，而且修改的时候要记住编码方式要和原来的文件一样，同时请童鞋们注意：主题升级以后会恢复原样，所以升级主题时请慎重！）
+
 <center>
-![WordPress-Notes](/images/WordPress-Notes-1.jpg)
+![WordPress-Notes-1](/images/WordPress-Notes-1.jpg)
 </center>
  
 # 5、博客提速
@@ -33,12 +34,13 @@ tag: WordPress
  
 # 7、反恶意注册
 开启了注册功能以后，遇到大量恶意注册，大量用户名是随机字符串的雅虎邮箱申请注册，尝试在注册页面加了验证码，具体方法可以参考[WordPress自定义用户注册页面插件](http://www.ludou.org/wordpress-ludou-custom-user-register.html)、[WordPress评论、注册、登录验证码](http://www.zhiyanblog.com/wordpress-si-captcha-anti-spam-plugin.html)、[wordpress受到恶意注册，注册登录页面增加验证码](http://www.diandidao.com/573.html)，这几款插件都能有效阻止此类恶意行为。
+
 <center>
-![WordPress-Notes](/images/WordPress-Notes-2.jpg)
+![WordPress-Notes-2](/images/WordPress-Notes-2.jpg)
 </center>
  
 未完待续，QAQ
 
 ---
 2016 年 3 月 28 日续：
-最近用 Hexo 搭建了自己的纯静态博客来代替 WordPress，然后在把原来的博客迁移过来。
+最近用 Hexo 搭建了自己的纯静态博客来代替 WordPress，然后在把原来的博客迁移过来，😌。

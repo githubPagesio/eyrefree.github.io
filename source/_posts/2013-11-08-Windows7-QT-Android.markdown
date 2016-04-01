@@ -65,6 +65,7 @@ D:\ANT
 %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%ANDROID_SDK_HOME%;  
 ```
 【注意最后面的分号 ; 不能漏掉】  
+
 <center>
 ![Windows7-QT-Android-1](/images/Windows7-QT-Android-1.jpeg)
 </center>
@@ -87,41 +88,52 @@ D:\ANT\bin\ant.bat
 ```
 D:\Java\jdk1.7.0_45  
 ```
+
 <center>
-![Windows7-QT-Android-1](/images/Windows7-QT-Android-2.jpeg)
+![Windows7-QT-Android-2](/images/Windows7-QT-Android-2.jpeg)
 </center>
 
 # 五、添加虚拟机
 单击 启动Android AVD管理器，出现Android Virtual Device Manager界面，单击 New 创建一个Android虚拟设备。
+
 <center>
-![Windows7-QT-Android-1](/images/Windows7-QT-Android-3.jpeg)
+![Windows7-QT-Android-3](/images/Windows7-QT-Android-3.jpeg)
 </center>
 
 # 六、建立测试工程
 经过以上这些步骤，开发环境基本配置完成，接下来我们建立一个简单的工程来验证配置是否正确：
 （1）重新打开Qt Creator，选择 文件 -> 新建文件或项目，出现项目创建向导，选择 QT Gui 应用：  
+
 <center>
-![Windows7-QT-Android-1](/images/Windows7-QT-Android-4.jpeg)
+![Windows7-QT-Android-4](/images/Windows7-QT-Android-4.jpeg)
 </center>
+
 （2）然后下一步，工程路径任选。  
 【但是切记，绝对不要在路径内包含任何空格，这里我使用的是D:\QT-WorkSpace，否则会出现各种意想不到的编译错误！】  
 （3）然后下一步，选择 Android for arm：  
+
 <center>
-![Windows7-QT-Android-1](/images/Windows7-QT-Android-5.jpeg)
+![Windows7-QT-Android-5](/images/Windows7-QT-Android-5.jpeg)
 </center>
+
 （4）后面的信息暂时不需要过多关注，直接下一步即可，直至完成项目创建。  
+
 <center>
-![Windows7-QT-Android-1](/images/Windows7-QT-Android-6.jpeg)
+![Windows7-QT-Android-6](/images/Windows7-QT-Android-6.jpeg)
 </center>
+
 （5）项目创建完毕后，右键 项目，选择 构建，若成功则继续下一步，否则请对照上文寻找可能的出错步骤进行相应修改或返回本文开头尝试重新开始配置过程。  
+
 <center>
-![Windows7-QT-Android-1](/images/Windows7-QT-Android-7.jpeg)
+![Windows7-QT-Android-7](/images/Windows7-QT-Android-7.jpeg)
 </center>
+
 （6）项目构建成功后，右键  
 项目，选择 运行，Android虚拟设备将会自动打开，启动过程过程较慢，耐心等候。  
 （7）若无意外，将会成功运行该空项目生成的apk，因为这里是个空的项目，什么也没写，所以当然什么也没有，效果如图，表明环境配置成功。  
+
 <center>
-![Windows7-QT-Android-1](/images/Windows7-QT-Android-8.jpeg)
+![Windows7-QT-Android-8](/images/Windows7-QT-Android-8.jpeg)
 </center>
 
 ---

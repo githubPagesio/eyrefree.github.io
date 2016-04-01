@@ -51,6 +51,7 @@ sudo npm install -g hexo
 hexo
 ```
 因为这并不是一个完整的命令，所以这时我们可以看到 hexo 输出的帮助信息，如下图所示：
+
 <center>
 ![Hexo-Coding-Pages-1](/images/Hexo-Coding-Pages-1.png)
 </center>

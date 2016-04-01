@@ -12,10 +12,13 @@ iOS 在 App 中获取当前版本的构建时间和 Git Hash 值，Demo 地址�
 ---
 # 1.添加 Run Script
 打开需要获取构建信息的工程，选中工程，切换到 Build Phases 选项卡，点击左边的“+”号选择“New Run Script Phase”一项添加一个新的 Run Script：
+
 <center>
 ![iOS-Build-Info-1](/images/iOS-Build-Info-1.png)
 </center>
+
 并将其命名为“Build Config"，然后将其拖动到“Target Dependencies”的下面：
+
 <center>
 ![iOS-Build-Info-2](/images/iOS-Build-Info-2.png)
 </center>
@@ -38,6 +41,7 @@ else
     /usr/libexec/PlistBuddy -c "Set :GIT_SHA $myHash" "$myFile"
 fi
 ```
+
 <center>
 ![iOS-Build-Info-3](/images/iOS-Build-Info-3.png)
 </center>
@@ -56,15 +60,18 @@ fi
 </dict>
 </plist>
 ```
+
 <center>
 ![iOS-Build-Info-4](/images/iOS-Build-Info-4.png)
 </center>
 
 # 4.获取 BuildConfig.plist 文件内容
 将 BuildConfig.plist 添加到我们的工程中：
+
 <center>
 ![iOS-Build-Info-5](/images/iOS-Build-Info-5.png)
 </center>
+
 然后在需要获取构建信息的位置添加如下代码就能成功获取构建时间和 Git Hash 值：
 ```swift
 //输出构建信息
@@ -81,6 +88,7 @@ print("BUILD_TIME: \(bulidTime)")
 print("GIT_SHA: \(gitSha)")
 ```
 结果如图所示：
+
 <center>
 ![iOS-Build-Info-6](/images/iOS-Build-Info-6.png)
 </center>
