@@ -70,7 +70,7 @@ git remote remove origin
 
 # 11.添加远程仓库地址 
 ```bash
-git remote add origin [https://git.coding.net/eyrefree/xxx.git](https://git.coding.net/eyrefree/xxx.git)
+git remote add origin https://git.coding.net/eyrefree/xxx.git
 ```
 
 # 12.Push 本地分支到指定远程分支
