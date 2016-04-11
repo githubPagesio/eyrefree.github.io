@@ -2,8 +2,8 @@
 layout: post
 title: Git 常用命令
 date: 2015-04-09 10:00:00 -05:00
-categories: Tips
-tag: Git
+categories: Git
+tag: Nothing
 ---
 
 Git 常用命令备忘
