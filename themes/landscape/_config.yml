@@ -33,6 +33,9 @@ home_nav:
   - name: 博客
     url: /archives
     target: _blank
+  - name: 简历
+    url: http://resume.eyrefree.org/
+    target: _blank
   - name: 简书
     url: http://www.jianshu.com/users/e4d1f69048ea
     target: _blank
@@ -128,6 +131,10 @@ link:
   - name: 江小湖Laker
     info: 进击的程序媛
     url: http://laker.me/blog/
+    avatar: https://dn-coding-net-production-static.qbox.me/80ab1c83-5194-4850-94bd-cb42c4bbafc8.png?imageMogr2/auto-orient/format/png/crop/!497x497a0a2
+  - name: 佳佳酱
+    info: 跨次元日常卖萌
+    url: https://luojia.me/
     avatar: https://dn-coding-net-production-static.qbox.me/80ab1c83-5194-4850-94bd-cb42c4bbafc8.png?imageMogr2/auto-orient/format/png/crop/!497x497a0a2
 
 
