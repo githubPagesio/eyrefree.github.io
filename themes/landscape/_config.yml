@@ -9,25 +9,8 @@ avatar: https://dn-coding-net-production-static.qbox.me/3f0503a5-2696-44e1-98dd-
 # Set favicon
 favicon: /favicon.ico
 
-# custom font-family 暂时只支持这3种英文字体
-blog_name_font_familiy: calligraffittiregular
-# blog_name_font_familiy: Lobster-Regular
-# blog_name_font_familiy: PoiretOne-Regular
-
-# Custom CSS style
-personal_style: /css/eyrefree.css
-
-home:
-  # background_image: /images/bg.jpg
-  background_scheme: light # dark、light
-
-
-
 # For seo
-keywords: EyreFree,iOS,Swift,Objective-C
-
-
-init_page_content: HOME_NAV  # HOME_NAV | POST
+keywords: EyreFree,C/C++,Objective-C,Swift,iOS,OS X
 
 home_nav:
   - name: 博客
@@ -78,7 +61,6 @@ page_nav:
 
 page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
 
-
 # 面包屑
 breadcrumb:
   isShow: true # true|fase
@@ -86,6 +68,15 @@ breadcrumb:
 # 盒子
 toolbox:
   isShow: true # true|fase
+  text: 盒子
+
+search_slogan:
+  isShow: true # true|fase
+  text: Can you find the bug of world ~
+
+link_slogan:
+  isShow: true # true|fase
+  text: 交换友链可以发邮件给我 eyrefree@eyrefree.org
 
 # set backtop show or hide
 backtop:
@@ -97,11 +88,63 @@ backtop:
   link: false
   about: false
 
-
 post:
   header_align: CENTER # LEFT|CENTER
   showToc: true # true|false
   showComments: true
+
+# =========================================================
+# 个性化设置
+# =========================================================
+
+# Custom CSS style
+personal_style: /css/eyrefree.css
+
+home_background_scheme: light # dark、light
+
+# custom font-family 暂时只支持这3种英文字体，你可以完全自定义字体(看文档)
+blog_name_font_familiy: calligraffittiregular
+# blog_name_font_familiy: Lobster-Regular
+# blog_name_font_familiy: PoiretOne-Regular
+
+init_page_content: HOME_NAV  # HOME_NAV | POST
+
+
+# =========================================================
+# 第三方服务
+# =========================================================
+# Stats
+#google_analytics: UA-74357398-1
+baidu_analytics: 638f7245dab1e13e3d8fbdd9cc3b0895
+
+# Comment service
+#disqus_shortname: eyrefree
+duoshuo_shortname: eyrefree
+
+
+# =========================================================
+# 页面内容设置
+# =========================================================
+about:
+  - type: me
+    icon: icon-user
+    text_value:
+    - "1993, Boy, ECIT."
+    - "并非所有流浪者都迷失了自我."
+    - "iOSer, Swift / Objective-C / C / C++."
+  - type: weibo
+    icon: icon-weibo
+    text_key: 微博
+    text_value: "@EyreFree"
+    text_value_url: http://weibo.com/eyrefree777
+  - type: mail
+    icon: icon-mail
+    text_key: 邮箱
+    text_value: "eyrefree@eyrefree.org"
+    text_value_url: mailto:eyrefree@eyrefree.org
+  - type: location
+    icon: icon-location
+    text_value: 无锡
 
 link:
   - name: Breaker's Blog
@@ -137,37 +180,7 @@ link:
     url: https://luojia.me/
     avatar: https://dn-coding-net-production-static.qbox.me/15b151ef-2df1-457a-913f-ec62d7b536fd.jpg?imageMogr2/auto-orient/format/jpeg/crop/!800x800a0a0
 
-
-about:
-  - type: me
-    icon: icon-user
-    text_value:
-    - "1993, Boy, ECIT."
-    - "并非所有流浪者都迷失了自我."
-    - "iOSer, Swift / Objective-C / C / C++."
-  - type: weibo
-    icon: icon-weibo
-    text_key: 微博
-    text_value: "@EyreFree"
-    text_value_url: http://weibo.com/eyrefree777
-  - type: mail
-    icon: icon-mail
-    text_key: 邮箱
-    text_value: "eyrefree@eyrefree.org"
-    text_value_url: mailto:eyrefree@eyrefree.org
-  - type: location
-    icon: icon-location
-    text_value: 无锡
-
-# Stats
-#google_analytics: UA-74357398-1
-baidu_analytics: 638f7245dab1e13e3d8fbdd9cc3b0895
-
-# Comment service
-#disqus_shortname: eyrefree
-duoshuo_shortname: eyrefree
-
-#project:
+# project:
 #  - type: personal
 #    name: fexo
 #    url: https://github.com/forsigner/fexo
@@ -186,37 +199,37 @@ duoshuo_shortname: eyrefree
 #    intro: 字体子集化，在线提取你需要的字体
 #  - type: personal
 #    name: magic-check
-#    url: https://github.com/forsigner/magic-check
-#    intro: Beautify Radio and Checkbox with pure CSS
-#  - type: personal
-#    name: nice-bar
-#    url: https://github.com/forsigner/nice-bar
-#    intro: A nice and lightweight scrollbar
-#  - type: personal
-#    name: angular-nice-bar
-#    url: https://github.com/forsigner/angular-nice-bar
-#    intro: A nice and lightweight scrollbar in Angular
-#  - type: personal
-#    name: fo-popover
-#    url: https://github.com/forsigner/fo-popover
-#    intro: A nice popover for Angular
-#  - type: personal
-#    name: fo-tooltip
-#    url: A nice tooltip for Angular
-#    intro: https://github.com/forsigner/fo-tooltip
-#  - type: personal
-#    name: fo-modal
-#    url: https://github.com/forsigner/fo-modal
-#    intro: A nice modal for Angular
-#  - type: personal
-#    name: mocer
-#    url: https://github.com/forsigner/mocer
-#    intro: Setup a mock server easily
-#  - type: personal
-#    name: node-pngdefry
-#    url: https://github.com/forsigner/node-pngdefry
-#    intro: Repairing iPhone fried PNGs using Node.js
-#  - type: personal
-#    name: ng-simditor
-#    url: https://github.com/forsigner/ng-simditor
-#    intro: Angular directive for simditor
+#     url: https://github.com/forsigner/magic-check
+#     intro: Beautify Radio and Checkbox with pure CSS
+#   - type: personal
+#     name: nice-bar
+#     url: https://github.com/forsigner/nice-bar
+#     intro: A nice and lightweight scrollbar
+#   - type: personal
+#     name: angular-nice-bar
+#     url: https://github.com/forsigner/angular-nice-bar
+#     intro: A nice and lightweight scrollbar in Angular
+#   - type: personal
+#     name: fo-popover
+#     url: https://github.com/forsigner/fo-popover
+#     intro: A nice popover for Angular
+#   - type: personal
+#     name: fo-tooltip
+#     url: A nice tooltip for Angular
+#     intro: https://github.com/forsigner/fo-tooltip
+#   - type: personal
+#     name: fo-modal
+#     url: https://github.com/forsigner/fo-modal
+#     intro: A nice modal for Angular
+#   - type: personal
+#     name: mocer
+#     url: https://github.com/forsigner/mocer
+#     intro: Setup a mock server easily
+#   - type: personal
+#     name: node-pngdefry
+#     url: https://github.com/forsigner/node-pngdefry
+#     intro: Repairing iPhone fried PNGs using Node.js
+#   - type: personal
+#     name: ng-simditor
+#     url: https://github.com/forsigner/ng-simditor
+#     intro: Angular directive for simditor

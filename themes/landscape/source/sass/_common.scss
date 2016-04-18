@@ -1,3 +1,11 @@
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .content {
   width: 500px;
   margin: 40px auto 80px;
@@ -20,15 +28,6 @@
 .duoshuo-comment,
 .disqus-comments {
   margin-top: 40px;
-}
-
-hr {
-  max-width: 400px;
-  height: 1px;
-  margin-top: -1px;
-  border: none;
-  background-color: ddd;
-  background-image: -webkit-linear-gradient(0deg, #fff, #ddd, #fff);
 }
 
 @media screen and (min-width: 768px) {}
