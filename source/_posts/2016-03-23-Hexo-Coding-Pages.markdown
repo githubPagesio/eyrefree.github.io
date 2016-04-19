@@ -120,7 +120,7 @@ hexo g
 ```
 部署命令：
 ```bash
-hexo s
+hexo d
 ```
 如果在 _config.yml 的 repo 处填写的仓库地址是 https 形式的，在部署时可能需要输入你的 Coding 账号和密码。  
 然后切换到该项目的 Pages 标签，开启 pages 服务，分支名填写为我们在_config.yml 文件中设定的分支，我的是 master。
