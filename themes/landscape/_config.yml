@@ -34,6 +34,12 @@ home_nav:
   - name: CSDN
     url: http://my.csdn.net/EyreFree
     target: _blank
+  - name: Steam
+    url: http://steamcommunity.com/id/EyreFree
+    target: _blank
+  - name: Battle.net
+    url: http://d3.blizzard.cn/profile/EyreFree-5717/478027
+    target: _blank
 
 # config page nav
 page_nav:
