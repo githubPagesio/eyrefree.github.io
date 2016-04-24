@@ -140,12 +140,22 @@ about:
     text_value:
     - "1993, Boy, ECIT."
     - "并非所有流浪者都迷失了自我."
-    - "iOSer, Swift / Objective-C / C / C++."
+    - "iOSer, C / C++ / Objective-C / Swift."
   - type: weibo
     icon: icon-weibo
     text_key: 微博
-    text_value: "@EyreFree"
+    text_value: "EyreFree"
     text_value_url: http://weibo.com/eyrefree777
+  - type: twitter
+    icon: icon-twitter
+    text_key: 推特
+    text_value: "EyreFree777"
+    text_value_url: https://twitter.com/EyreFree777
+  - type: qq
+    icon: icon-qq
+    text_key: QQ
+    text_value: "1795179491"
+    text_value_url: http://wpa.qq.com/msgrd?v=3&uin=1795179491&site=qq&menu=yes
   - type: mail
     icon: icon-mail
     text_key: 邮箱
@@ -153,7 +163,14 @@ about:
     text_value_url: mailto:eyrefree@eyrefree.org
   - type: location
     icon: icon-location
-    text_value: 无锡
+    text_key: 位置
+    text_value: "无锡"
+  - type: info
+    icon: icon-info
+    text_key: 备案
+    text_value: "苏ICP备15023694号"
+    text_value_url: http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action
+
 
 link:
   - name: Breaker's Blog
