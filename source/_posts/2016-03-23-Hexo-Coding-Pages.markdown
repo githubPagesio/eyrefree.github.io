@@ -67,6 +67,10 @@ sudo npm install hexo-server --save
 ```bash
 hexo init
 ```
+然后执行如下命令，安装所需要的依赖：
+```bash
+npm install
+```
 网上有大量开发者们分享的模板可供选择使用，将它们的 Git 仓库 Clone 以后放到博客目录下的 themes 文件夹中即可：  
 [Github Hexo Themes](https://github.com/hexojs/hexo/wiki/Themes)  
 [有哪些好看的 Hexo 主题？](http://www.zhihu.com/question/24422335)  
