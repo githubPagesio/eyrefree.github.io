@@ -144,6 +144,16 @@ about:
     - "1993, Boy, ECIT."
     - "并非所有流浪者都迷失了自我."
     - "iOSer, C / C++ / Objective-C / Swift."
+  - type: qq
+    icon: icon-qq
+    text_key: QQ
+    text_value: "1795179491"
+    text_value_url: http://wpa.qq.com/msgrd?v=3&uin=1795179491&site=qq&menu=yes
+  - type: wechat
+    icon: icon-wechat
+    text_key: 微信
+    text_value: "EyreFreePro"
+    text_value_url: "#"
   - type: weibo
     icon: icon-weibo
     text_key: 微博
@@ -154,11 +164,6 @@ about:
     text_key: 推特
     text_value: "EyreFree777"
     text_value_url: https://twitter.com/EyreFree777
-  - type: qq
-    icon: icon-qq
-    text_key: QQ
-    text_value: "1795179491"
-    text_value_url: http://wpa.qq.com/msgrd?v=3&uin=1795179491&site=qq&menu=yes
   - type: mail
     icon: icon-mail
     text_key: 邮箱
@@ -168,6 +173,7 @@ about:
     icon: icon-location
     text_key: 位置
     text_value: "无锡"
+    text_value_url: "#"
   - type: info
     icon: icon-info
     text_key: 备案
