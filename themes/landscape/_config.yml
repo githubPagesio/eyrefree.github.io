@@ -55,6 +55,9 @@ page_nav:
   - name: 标签
     url: /tag/
     target_blank: false
+  - name: 项目
+    url: /project/
+    target_blank: false
   - name: 友链
     url: /link/
     target_blank: false
@@ -217,12 +220,20 @@ link:
     info: My Coding Note。
     url: http://www.jvaeyhcd.cc/
     avatar: https://dn-coding-net-production-static.qbox.me/0dcf6be4-e41e-4842-80af-af8f2b0eb3f3.jpg
+  - name: 小栈
+    info: 个人博客
+    url: http://lancelot_lewis.coding.me/
+    avatar: https://dn-coding-net-production-static.qbox.me/69ebe443-7644-4656-8d51-a5c8b8b78dd8.jpg?imageMogr2/auto-orient/format/jpeg/crop/!403x403a27a44
 
-# project:
-#  - type: personal
-#    name: fexo
-#    url: https://github.com/forsigner/fexo
-#    intro: A minimalist design theme for hexo
+project:
+  - type: personal
+    name: TencentLinkupPlugin
+    url: https://github.com/EyreFree/TencentLinkupPlugin
+    intro: 腾讯游戏大厅连连看辅助
+  - type: personal
+    name: mspaint
+    url: https://github.com/EyreFree/mspaint
+    intro: 高仿 Windows 画图板
 #  - type: company
 #    name: Fexo
 #    url: https://github.com/forsigner/fexo
