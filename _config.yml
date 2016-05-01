@@ -69,5 +69,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@git.coding.net:eyrefree/blog.eyrefree.git
+  repo: git@git.coding.net:eyrefree/eyrefree.git
   branch: master
