@@ -153,7 +153,7 @@ about:
     icon: icon-wechat
     text_key: 微信
     text_value: "EyreFreePro"
-    text_value_url: "#"
+    text_value_url: http://bedroom.eyrefree.org/images/eyrefreepro.png
   - type: weibo
     icon: icon-weibo
     text_key: 微博
@@ -173,7 +173,7 @@ about:
     icon: icon-location
     text_key: 位置
     text_value: "无锡"
-    text_value_url: "#"
+    text_value_url: "http://map.baidu.com/"
   - type: info
     icon: icon-info
     text_key: 备案
