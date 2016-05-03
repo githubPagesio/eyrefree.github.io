@@ -230,6 +230,10 @@ link:
     info: 个人博客
     url: http://lancelot_lewis.coding.me/
     avatar: https://dn-coding-net-production-static.qbox.me/69ebe443-7644-4656-8d51-a5c8b8b78dd8.jpg?imageMogr2/auto-orient/format/jpeg/crop/!403x403a27a44
+  - name: 海诺者
+    info: PHP终极粉丝
+    url: https://blog.hainuo.info/
+    avatar: https://dn-coding-net-avatar.qbox.me/4cc88a4e-7adc-469f-98a5-6091ef2a35c3.jpg
 
 project:
   - type: personal
