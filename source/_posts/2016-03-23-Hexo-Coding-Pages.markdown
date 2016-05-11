@@ -45,8 +45,24 @@ sudo npm install -g hexo
 ```
 因为可能有文件读写权限的问题，这里推荐用 sudo，输入密码后会开始安装，时间可能比较长，耐心等待，如果长时间卡在某一步 Ctrl + C 终止当前任务后重试即可。
 
-# 5，安装 Server 组件
-安装 Hexo 完成后我们在终端中执行如下命令：
+# 5，本地建立博客  
+安装完成后，新建一个目录如 myblog 用于存放博客，切换到该目录下执行以下指令，Hexo 即会在目标文件夹初步生成博客所需要的所有文件：
+```bash
+hexo init
+```
+然后切换到该目录下执行如下命令，安装所需要的依赖：
+```bash
+sudo npm install
+```
+网上有大量开发者们分享的模板可供选择使用，将它们的 Git 仓库 Clone 以后放到博客目录下的 themes 文件夹中即可：  
+[Github Hexo Themes](https://github.com/hexojs/hexo/wiki/Themes)  
+[有哪些好看的 Hexo 主题？](http://www.zhihu.com/question/24422335)  
+本博客的搭建我选择了使用该主题：  
+https://github.com/forsigner/fexo  
+在这里对原作者 forsigner 表示感谢，🙏
+
+# 6，安装 Server 组件
+保持在本地博客路径下，在终端中执行如下命令：
 ```bash
 hexo
 ```
@@ -61,22 +77,6 @@ hexo
 sudo npm install hexo-server --save
 ```
 如果安装过程中出现一些问题导致某些模块没有安装成功的也可以通过类似的方式单独安装某个模块进行修复。
-
-# 6，本地建立博客  
-安装完成后，新建一个目录如 myblog 用于存放博客，切换到该目录下执行以下指令，Hexo 即会在目标文件夹初步生成博客所需要的所有文件：
-```bash
-hexo init
-```
-然后执行如下命令，安装所需要的依赖：
-```bash
-npm install
-```
-网上有大量开发者们分享的模板可供选择使用，将它们的 Git 仓库 Clone 以后放到博客目录下的 themes 文件夹中即可：  
-[Github Hexo Themes](https://github.com/hexojs/hexo/wiki/Themes)  
-[有哪些好看的 Hexo 主题？](http://www.zhihu.com/question/24422335)  
-本博客的搭建我选择了使用该主题：  
-https://github.com/forsigner/fexo  
-在这里对原作者 forsigner 表示感谢，🙏
 
 # 7，安装 RSS 插件（可忽略）  
 到博客所在目录 myblog 下，利用该命令安装 RSS 插件，暂时不需添加 RSS 功能的同学可忽略该步骤：
