@@ -39,5 +39,4 @@ let testColor = UIColor(valueRGB: 0x666666)
 ---
 实际上这里没有做十六进制的限定，只需要是 UInt 类型都可以，但是貌似暂时没发现什么实际意义，用来生成随机颜色？或者是画颜色表？大家可以自行挖掘下，😊
 
-以上。
-
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

@@ -139,4 +139,4 @@ D:\Java\jdk1.7.0_45
 ---
 到这里就应该已经完成了，接下来可以使用 C++ 动手开始 QT for Android 开发了，😝。
 
-以上。  
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

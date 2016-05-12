@@ -56,4 +56,4 @@ MFC 腾讯游戏大厅连连看辅助，代码地址：
 
 
 ---
-以上。
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

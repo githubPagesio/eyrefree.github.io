@@ -23,4 +23,4 @@ tag: Nothing
 接下来 Run 一下工程，启动 App 时就可以出现我们上面设置的启动图片啦，😊
 
 ---
-以上。
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

@@ -28,3 +28,5 @@ tag: Nothing
 [php 执行shell命令的函数](http://my.oschina.net/u/190107/blog/86519)
 [Git SSH Key 生成步骤](http://blog.csdn.net/hustpzb/article/details/8230454/)
 
+---
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

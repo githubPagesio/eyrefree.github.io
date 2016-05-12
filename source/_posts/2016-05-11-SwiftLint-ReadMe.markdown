@@ -7,6 +7,7 @@ tag: Swift
 ---
 
 原文链接：[https://github.com/realm/SwiftLint/blob/master/README.md](https://github.com/realm/SwiftLint/blob/master/README.md)
+译文链接：[https://github.com/realm/SwiftLint/blob/master/README_CN.md](https://github.com/realm/SwiftLint/blob/master/README_CN.md)
 
 ---
 SwiftLint 是一个用于强制检查 Swift 代码风格和规定的一个工具，基本上以 [GitHub's Swift 代码风格指南](https://github.com/github/swift-style-guide)为基础。
@@ -239,3 +240,6 @@ SwiftLint 可以自动修正某些错误，磁盘上的文件会被一个修正�
 ## 协议
 
 MIT 许可。
+
+---
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

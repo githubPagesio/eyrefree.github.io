@@ -70,4 +70,4 @@ git clone https://github.com/sl4m/skim.cc.git
 嘛，大概就是这些内容了，有遗漏的话后期会继续补充，😝，[我的博客](http://www.eyrefree.org)在原模版基础上将 Google 统计，Disqus 评论，feedburner 等替换为了自己的，其他的一些修改详情参见我的 Coding 仓库的 Jekyll 分支：
 [https://coding.net/u/eyrefree/p/blog.eyrefree.org/git](https://coding.net/u/eyrefree/p/blog.eyrefree.org/git)
 
-以上。  
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

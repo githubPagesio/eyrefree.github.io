@@ -89,3 +89,4 @@ git config --global user.name "eyrefree" git config --global user.email eyrefre
 更多 Git 常用命令可参考：[常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 或查阅官方文档：[Pro Git book](https://git-scm.com/book/zh/v2)
 
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)
