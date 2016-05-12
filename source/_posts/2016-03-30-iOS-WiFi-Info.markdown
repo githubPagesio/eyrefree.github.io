@@ -51,5 +51,7 @@ NSLog("BSSID(Mac地址): \(wifiInfo.1)")
 </center>
 
 ---
+本文链接：[http://www.eyrefree.org/2016/03/30/2016-03-30-iOS-WiFi-Info/](http://www.eyrefree.org/2016/03/30/2016-03-30-iOS-WiFi-Info/)
+
 如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)
 

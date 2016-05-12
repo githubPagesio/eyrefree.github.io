@@ -337,4 +337,7 @@ This is the way the world ends, Not with a bang but a whimper.
 ---
 荏苒：摘抄本，励志歌。
 
+---
+本文链接：[http://www.eyrefree.org/2011/11/11/2011-11-11-Sing-A-Song/](http://www.eyrefree.org/2011/11/11/2011-11-11-Sing-A-Song/)
+
 如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

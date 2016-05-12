@@ -162,4 +162,7 @@ sudo npm install hexo --no-optional
 嘛，大概就是这些内容了，有遗漏的话会继续补充，😝。[我的博客](http://www.eyrefree.org)是用 Hexo 生成的使用了 Fexo 模版，开启了 Google 统计，Disqus 评论，RSS 订阅，站内搜索等，详情参见我的 Coding 仓库的 Hexo 分支：
 [https://coding.net/u/eyrefree/p/blog.eyrefree.org/git](https://coding.net/u/eyrefree/p/blog.eyrefree.org/git)
 
+---
+本文链接：[http://www.eyrefree.org/2016/03/23/2016-03-23-Hexo-Coding-Pages/](http://www.eyrefree.org/2016/03/23/2016-03-23-Hexo-Coding-Pages/)
+
 如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)
