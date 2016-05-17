@@ -247,11 +247,11 @@ project:
   - type: personal
     name: mspaint
     url: https://github.com/EyreFree/mspaint
-    intro: 高仿 Windows 画图板
-#  - type: company
-#    name: Fexo
-#    url: https://github.com/forsigner/fexo
-#    intro: A minimalist design theme for hexo
+    intro: C# 高仿 Windows 画图板
+  - type: personal
+    name: Gobang
+    url: https://github.com/EyreFree/Gobang
+    intro: Cocos2d-x 人机对战五子棋游戏
 #  - type: personal
 #    name: beside
 #    url: https://github.com/forsigner/beside
