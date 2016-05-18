@@ -172,8 +172,8 @@ about:
   - type: location
     icon: icon-location
     text_key: 位置
-    text_value: "无锡"
-    text_value_url: "http://map.baidu.com/"
+    text_value: "上海"
+    text_value_url: "http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%E4%B8%8A%E6%B5%B7"
   - type: info
     icon: icon-info
     text_key: 备案
