@@ -195,17 +195,9 @@ link:
     url: http://timothyqiu.com/
     avatar: https://dn-coding-net-production-static.qbox.me/2212a32f00cca72b5561aef00ebb5dc7.png
   - name: 沉没大陆
-    info: Daterlove
+    info: Blog for Daterlove
     url: http://www.sinkland.cn/
     avatar: https://avatars0.githubusercontent.com/u/11631445?v=3&s=460
-  - name: Geek情怀
-    info: 有什么用呢？因为它看起来很美...
-    url: https://segmentfault.com/blog/wzhvictor
-    avatar: https://sfault-avatar.b0.upaiyun.com/510/717/510717055-563941d905997_huge256
-  - name: 小飞侠
-    info: 爱生活，爱Coding， 幸福快乐的小飞侠
-    url: http://www.flypie.cn/
-    avatar: https://avatars3.githubusercontent.com/u/12812523?v=3&s=460
   - name: 江小湖Laker
     info: 进击的程序媛
     url: http://laker.me/blog/
@@ -218,16 +210,12 @@ link:
     info: 我是一只小小小小熊
     url: http://ursb.me/
     avatar: https://dn-coding-net-production-static.qbox.me/8cc80ba0-f0ad-4fe8-87f9-15e02ed64c65.jpg?imageMogr2/auto-orient/format/png/crop/!493x493a0a0
-  - name: 无恙
-    info: Xiekers Blog，博主小可。
-    url: http://blog.xieke.org/
-    avatar: https://dn-coding-net-production-static.qbox.me/94a6ef92-554f-4ac2-9316-9134c3a704fb.jpg
   - name: Jvaeyhcd's Note
     info: My Coding Note。
     url: http://www.jvaeyhcd.cc/
     avatar: https://dn-coding-net-production-static.qbox.me/0dcf6be4-e41e-4842-80af-af8f2b0eb3f3.jpg
-  - name: 小栈
-    info: 个人博客
+  - name: Invictus
+    info: C'est la vie
     url: http://lancelot_lewis.coding.me/
     avatar: https://dn-coding-net-production-static.qbox.me/69ebe443-7644-4656-8d51-a5c8b8b78dd8.jpg?imageMogr2/auto-orient/format/jpeg/crop/!403x403a27a44
   - name: 海诺者
@@ -238,14 +226,14 @@ link:
     info: 记录一个iOS程序员的成长历程
     url: https://blog.6ag.cn
     avatar: https://avatars0.githubusercontent.com/u/9330618?v=3&s=460
-  - name: Gua Blog
+  - name: Guardia·瓜地
     info: Innovation, in iOS development.
     url: http://desgard.com/
     avatar: https://avatars3.githubusercontent.com/u/7804535?v=3&s=460
-  - name: iOS Developer
-    info: 学会生活、懂得分享。做好自己、快乐你我他！
-    url: http://www.ch8888.cn/
-    avatar: https://avatars0.githubusercontent.com/u/5237197?v=3&s=460
+  - name: SuperDanny
+    info: 一个不知天高地厚的小屁孩
+    url: http://superdanny.link/
+    avatar: http://ww1.sinaimg.cn/mw690/81f8a509gw1evdwqs4q4cj20xc0xbjyw.jpg
   - name: Swift迷
     info: 致力于打造一个国内专业的Apple Swift交流和分享地方
     url: http://www.swiftmi.com/
