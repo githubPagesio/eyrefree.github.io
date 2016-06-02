@@ -246,6 +246,10 @@ link:
     info: 学会生活、懂得分享。做好自己、快乐你我他！
     url: http://www.ch8888.cn/
     avatar: https://avatars0.githubusercontent.com/u/5237197?v=3&s=460
+  - name: Swift迷
+    info: 致力于打造一个国内专业的Apple Swift交流和分享地方
+    url: http://www.swiftmi.com/
+    avatar: https://avatars0.githubusercontent.com/u/3375497?v=3&s=460
 
 project:
   - type: personal
