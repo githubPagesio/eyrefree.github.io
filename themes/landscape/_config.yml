@@ -234,10 +234,18 @@ link:
     info: PHP终极粉丝
     url: https://blog.hainuo.info/
     avatar: https://dn-coding-net-avatar.qbox.me/4cc88a4e-7adc-469f-98a5-6091ef2a35c3.jpg
-  #- name: 演绎法
-  #  info: 那时你还小，我们都爱傻傻笑。
-  #  url: https://blog.rori.tv/
-  #  avatar: http://cdn.v2ex.co/gravatar/df394768b8d01eba1d5e2a086b33ef2b?s=73&d=retro
+  - name: 六阿哥博客
+    info: 记录一个iOS程序员的成长历程
+    url: https://blog.6ag.cn
+    avatar: https://avatars0.githubusercontent.com/u/9330618?v=3&s=460
+  - name: Gua Blog
+    info: Innovation, in iOS development.
+    url: http://desgard.com/
+    avatar: https://avatars3.githubusercontent.com/u/7804535?v=3&s=460
+  - name: iOS Developer
+    info: 学会生活、懂得分享。做好自己、快乐你我他！
+    url: http://www.ch8888.cn/
+    avatar: https://avatars0.githubusercontent.com/u/5237197?v=3&s=460
 
 project:
   - type: personal
