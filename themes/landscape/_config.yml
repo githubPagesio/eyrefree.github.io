@@ -84,7 +84,7 @@ toolbox:
 
 search_slogan:
   isShow: true # true|fase
-  text: Can you find the bug of world ~
+  text: 人生总是结束于寻找出路的过程中。
 
 link_slogan:
   isShow: true # true|fase
