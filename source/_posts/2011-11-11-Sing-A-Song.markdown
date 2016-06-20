@@ -246,6 +246,8 @@ There is only one thing that makes a dream impossible to achieve: the fear of fa
 
 人跟猪的区别，就在于一样懒，但是没办法像猪一样，懒得心安理得。
 
+最怕你一生碌碌无为，还安慰自己平凡可贵。
+
 当你变得足够强大，就不会在意曾经付出过多少代价。
 
 如果我们之间有 1000 步的距离，你只要跨出第 1 步，我就会朝你的方向走其余的 999 步。
