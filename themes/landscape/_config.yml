@@ -1,6 +1,6 @@
 # Blog info
 blog_name: EyreFree
-slogan: Not all those who wander are lost.
+slogan: It’s hard to have ideas and easy to give up.
 url: http://www.eyrefree.org
 
 # Set avatar (Absolute url and relative url)
@@ -142,7 +142,7 @@ about:
     icon: icon-user
     text_value:
     - "1993, Boy, ECIT."
-    - "并非所有流浪者都迷失了自我."
+    - "思考是件很难的事，放弃却很简单。"
     - "iOSer, C / C++ / Objective-C / Swift."
   - type: qq
     icon: icon-qq
@@ -177,7 +177,7 @@ about:
   - type: info
     icon: icon-info
     text_key: 备案
-    text_value: "苏ICP备15023694号"
+    text_value: "苏ICP备15023694号-1"
     text_value_url: http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action
 
 
