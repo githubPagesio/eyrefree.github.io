@@ -331,6 +331,8 @@ It’s hard to have ideas and easy to give up.
 
 这世上所有的不公平都是因为当事人能力的不足。
 
+他不停的跑啊跑，为的只是追上那个被寄予厚望的自己。
+
 This is the way the world ends, Not with a bang but a whimper.
 世界是这样结束的，不是砰的巨响，而是一声抽泣。
 
