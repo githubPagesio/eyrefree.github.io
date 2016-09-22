@@ -104,7 +104,7 @@ func application(_ application: UIApplication, performActionFor shortcutItem: UI
 
 # 4.其他
 1.需要注意的是，快捷启动按钮最多只能添加 4 个。
-2.最新的 iOS 10 系统会给所有的 App 额外添加一个 3D Touch 分享按钮，点击后不打开 App 而是调用系统分享改应用的 App Store 下载地址。
+2.最新的 iOS 10 系统会给所有的 App 额外添加一个 3D Touch 分享按钮，点击后不打开 App 而是调用系统分享该应用的 App Store 下载地址。
 
 ---
 参考资料：
