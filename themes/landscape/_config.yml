@@ -141,9 +141,9 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "1993, Boy, ECIT."
+    - "1993, ECIT."
     - "思考是件很难的事，放弃却很简单。"
-    - "iOSer, C / C++ / Objective-C / Swift."
+    - "C / C++ / Swift."
   - type: qq
     icon: icon-qq
     text_key: QQ
