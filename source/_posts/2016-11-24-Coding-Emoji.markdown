@@ -66,7 +66,7 @@ Sticker Pack Application 的图标和一般的 iOS 应用不太一样，它部�
 ![最终运行效果](http://upload-images.jianshu.io/upload_images/1018190-248481f796531dbf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 五.提交审核
-（这一步不算在 5 分钟里哦，不属于开发过程唉，顺带提一下凑字数，🙄，购买开发者账号要等好几天呢）
+（这一步不算在 10 分钟里哦，不属于开发过程唉，顺带提一下凑字数，🙄，购买开发者账号要等好几天呢）
 若已经准备好了 iOS 开发者账号，就可以直接提交审核了，嗯，这个时候需要准备两张运行效果的屏幕截图，分别是 iPhone 和 iPad 的。
 
 | Device | Size |
