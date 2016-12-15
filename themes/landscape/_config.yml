@@ -16,9 +16,9 @@ home_nav:
   - name: 博客
     url: /archives
     target: _blank
-  - name: 简历
-    url: http://resume.eyrefree.org/
-    target: _blank
+  # - name: 简历
+  #   url: http://resume.eyrefree.org/
+  #   target: _blank
   - name: 简书
     url: http://www.jianshu.com/users/e4d1f69048ea
     target: _blank
@@ -34,15 +34,15 @@ home_nav:
   - name: V2EX
     url: http://v2ex.com/member/eyrefree
     target: _blank
-  - name: CSDN
-    url: http://my.csdn.net/EyreFree
-    target: _blank
+  # - name: CSDN
+  #   url: http://my.csdn.net/EyreFree
+  #   target: _blank
   - name: Steam
     url: http://steamcommunity.com/id/EyreFree
     target: _blank
-  - name: Battle.net
-    url: http://d3.blizzard.cn/profile/EyreFree-5717/478027
-    target: _blank
+  # - name: Battle.net
+  #   url: http://d3.blizzard.cn/profile/EyreFree-5717/478027
+  #   target: _blank
 
 # config page nav
 page_nav:
@@ -88,7 +88,7 @@ search_slogan:
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以发邮件给我 eyrefree@eyrefree.org
+  text: 交换友链可发送邮件至 eyrefree@eyrefree.org
 
 # set backtop show or hide
 backtop:
@@ -143,17 +143,17 @@ about:
     text_value:
     - "1993, ECIT."
     - "思考是件很难的事，放弃却很简单。"
-    - "C / C++ / Swift."
+    - "iOS 开发者"
   - type: qq
     icon: icon-qq
     text_key: QQ
     text_value: "1795179491"
     text_value_url: http://wpa.qq.com/msgrd?v=3&uin=1795179491&site=qq&menu=yes
-  - type: wechat
-    icon: icon-wechat
-    text_key: 微信
-    text_value: "EyreFreePro"
-    text_value_url: http://bedroom.eyrefree.org/images/eyrefreepro.png
+  # - type: wechat
+  #   icon: icon-wechat
+  #   text_key: 微信
+  #   text_value: "EyreFreePro"
+  #   text_value_url: http://bedroom.eyrefree.org/images/eyrefreepro.png
   - type: weibo
     icon: icon-weibo
     text_key: 微博
@@ -245,17 +245,25 @@ link:
 
 project:
   - type: personal
+    name: VSCAM
+    url: https://github.com/EyreFree/VSCAM
+    intro: 摄影 交流 分享 - 极简主义图片分享应用
+  - type: personal
+    name: CodingEmoji
+    url: https://github.com/EyreFree/CodingEmoji
+    intro: iOS 洋葱猴-表情包
+  - type: personal
     name: TencentLinkupPlugin
     url: https://github.com/EyreFree/TencentLinkupPlugin
     intro: 腾讯游戏大厅连连看辅助
   - type: personal
-    name: mspaint
-    url: https://github.com/EyreFree/mspaint
-    intro: C# 高仿 Windows 画图板
-  - type: personal
     name: Gobang
     url: https://github.com/EyreFree/Gobang
     intro: Cocos2d-x 人机对战五子棋游戏
+  - type: personal
+    name: mspaint
+    url: https://github.com/EyreFree/mspaint
+    intro: C# 高仿 Windows 画图板
 #  - type: personal
 #    name: beside
 #    url: https://github.com/forsigner/beside
