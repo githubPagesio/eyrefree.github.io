@@ -1,6 +1,6 @@
 # Blog info
 blog_name: EyreFree
-slogan: It’s hard to have ideas and easy to give up.
+slogan: Not all those who wander are lost.
 url: http://www.eyrefree.org
 
 # Set avatar (Absolute url and relative url)
@@ -141,9 +141,8 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "1993, ECIT."
-    - "思考是件很难的事，放弃却很简单。"
-    - "iOS 开发者"
+    - "一个脱离了高级趣味的人。"
+    - "A man interested in coding."
   - type: qq
     icon: icon-qq
     text_key: QQ
@@ -154,16 +153,16 @@ about:
   #   text_key: 微信
   #   text_value: "EyreFreePro"
   #   text_value_url: http://bedroom.eyrefree.org/images/eyrefreepro.png
-  - type: weibo
-    icon: icon-weibo
-    text_key: 微博
-    text_value: "EyreFree"
-    text_value_url: http://weibo.com/eyrefree777
-  - type: twitter
-    icon: icon-twitter
-    text_key: 推特
-    text_value: "EyreFree777"
-    text_value_url: https://twitter.com/EyreFree777
+  # - type: weibo
+  #   icon: icon-weibo
+  #   text_key: 微博
+  #   text_value: "EyreFree"
+  #   text_value_url: http://weibo.com/eyrefree777
+  # - type: twitter
+  #   icon: icon-twitter
+  #   text_key: 推特
+  #   text_value: "EyreFree777"
+  #   text_value_url: https://twitter.com/EyreFree777
   - type: mail
     icon: icon-mail
     text_key: 邮箱
