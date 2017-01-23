@@ -253,11 +253,11 @@ link:
 project:
   - type: personal
     name: VSCAM
-    url: https://github.com/EyreFree/VSCAM
+    url: https://eyrefree.github.io/VSCAM/
     intro: 摄影 交流 分享 - 极简主义图片分享应用
   - type: personal
     name: CodingEmoji
-    url: https://github.com/EyreFree/CodingEmoji
+    url: https://eyrefree.github.io/CodingEmoji/
     intro: iOS 洋葱猴-表情包
   - type: personal
     name: TencentLinkupPlugin
@@ -271,47 +271,8 @@ project:
     name: mspaint
     url: https://github.com/EyreFree/mspaint
     intro: C# 高仿 Windows 画图板
-#  - type: personal
-#    name: beside
-#    url: https://github.com/forsigner/beside
-#    intro: I need you beside me
-#  - type: personal
-#    name: web-fontmin
-#    url: https://github.com/forsigner/web-fontmin
-#    intro: 字体子集化，在线提取你需要的字体
-#  - type: personal
-#    name: magic-check
-#     url: https://github.com/forsigner/magic-check
-#     intro: Beautify Radio and Checkbox with pure CSS
-#   - type: personal
-#     name: nice-bar
-#     url: https://github.com/forsigner/nice-bar
-#     intro: A nice and lightweight scrollbar
-#   - type: personal
-#     name: angular-nice-bar
-#     url: https://github.com/forsigner/angular-nice-bar
-#     intro: A nice and lightweight scrollbar in Angular
-#   - type: personal
-#     name: fo-popover
-#     url: https://github.com/forsigner/fo-popover
-#     intro: A nice popover for Angular
-#   - type: personal
-#     name: fo-tooltip
-#     url: A nice tooltip for Angular
-#     intro: https://github.com/forsigner/fo-tooltip
-#   - type: personal
-#     name: fo-modal
-#     url: https://github.com/forsigner/fo-modal
-#     intro: A nice modal for Angular
-#   - type: personal
-#     name: mocer
-#     url: https://github.com/forsigner/mocer
-#     intro: Setup a mock server easily
-#   - type: personal
-#     name: node-pngdefry
-#     url: https://github.com/forsigner/node-pngdefry
-#     intro: Repairing iPhone fried PNGs using Node.js
-#   - type: personal
-#     name: ng-simditor
-#     url: https://github.com/forsigner/ng-simditor
-#     intro: Angular directive for simditor
+  - type: personal
+    name: RetroSnakerJS
+    url: https://8bit-game-studio.github.io/RetroSnakerJS/
+    intro: 贪吃蛇 JS 版
+    
