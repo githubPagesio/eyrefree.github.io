@@ -1,0 +1,109 @@
+---
+layout: post
+title: iOS 原生二维码生成及 UIImage 中的二维码识别
+date: 2017-01-25 10:00:00 -05:00
+categories: iOS
+tag: QRCode
+---
+
+iOS 原生的二维码识别非常之棒，反正比 ZXing 和 ZBar 效果都好些，所以以后打算尽量用原生的二维码识别，然后最近把原生的二维码生成也顺便做了一遍，封了一个小库方便以后使用。
+
+项目地址：[https://github.com/EyreFree/EFQRCode](https://github.com/EyreFree/EFQRCode)
+
+---
+
+# 一.注意事项
+
+最低需要 XCode 8。0 以及 Swift 3.0。
+
+# 二.调用
+
+首先，需要在 Podfile 中引入：
+
+
+```
+pod "EFQRCode", '~> 1.0.0'
+```
+
+什么，你不知道 Pod？可以参考这里的 [CocoaPods安装和使用教程](http://code4app.com/article/cocoapods-install-usage)。
+
+执行 pod install 之后，在需要使用的地方导入模块
+
+```swift
+import EFQRCode
+```
+
+# 三.二维码识别
+
+给 UIImage 添加了扩展，二维码识别可以通过 UIImage 对象来调用：
+
+```swift
+if let testImage = UIImage(named: "test.png") {
+	let codes = testImage.toQRCodeString()
+	if codes.count > 0 {
+		print("There are \(codes.count) codes in testImage.")
+		for (index, code) in codes.enumerated() {
+       			print("The content of \(index) QR Code is: \(code).")
+		}
+	} else {
+		print("There is no QR Codes in testImage.")
+	}
+}
+```
+
+也可以通过类方法来调用：
+
+```swift
+if let testImage = UIImage(named: "test.png") {
+	let codes = EFQRCode.GetQRCodeString(From: testImage)
+	if codes.count > 0 {
+		print("There are \(codes.count) codes in testImage.")
+		for (index, code) in codes.enumerated() {
+			print("The content of \(index) QR Code is: \(code).")
+		}
+	} else {
+		print("There is no QR Codes in testImage.")
+	}
+}
+```
+
+# 四.二维码生成
+
+可以通过 UIImage 初始化方法来进行二维码生成：
+
+```swift
+if let tryImage = UIImage(QRCodeString: "what the hell.", size: 200, inputCorrectionLevel: .m, iconImage: UIImage(named: "eyrefree"), iconImageSize: 10.0) {
+	print("Create QRCode image success!")
+} else {
+	print("Create QRCode image failed!")
+}
+```
+
+同样的，也可以通过类方法类进行调用：
+
+```swift
+if let tryImage = EFQRCode.CreateQRCodeImage(With: "what the hell.", size: 200, inputCorrectionLevel: .m, iconImage: UIImage(named: "eyrefree"), iconImageSize: 10.0) {
+	print("Create QRCode image success!")
+} else {
+	print("Create QRCode image failed!")
+}
+```
+
+这里的参数意义如下：
+
+```swift
+// QRCodeString: 二维码内容
+// size (可选): 二维码边长
+// inputCorrectionLevel (可选): 容错率
+// 		L 7%
+// 		M 15%
+// 		Q 25%
+// 		H 30%
+// iconImage (可选): 中心图标
+// iconImageSize (可选): 图标边长
+```
+
+---
+本文链接：[http://www.eyrefree.org/2017/01/25/2017-01-25-EFQRCode/](http://www.eyrefree.org/2017/01/25/2017-01-25-EFQRCode/)
+
+如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)
