@@ -103,6 +103,10 @@ if let tryImage = EFQRCode.CreateQRCodeImage(With: "what the hell.", size: 200, 
 // iconImageSize (可选): 图标边长
 ```
 
+# 五. 预览
+
+![预览](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/screenshot.png)
+
 ---
 本文链接：[http://www.eyrefree.org/2017/01/25/2017-01-25-EFQRCode/](http://www.eyrefree.org/2017/01/25/2017-01-25-EFQRCode/)
 
