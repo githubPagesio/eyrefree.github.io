@@ -85,6 +85,11 @@ git push -u origin master
 git config --global user.name "eyrefree" git config --global user.email eyrefree@163.com
 ```
 
+# PS
+最后，转载一张觉得挺棒的图片：
+
+![](/images/git.png)
+
 ---
 更多 Git 常用命令可参考：[常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 或查阅官方文档：[Pro Git book](https://git-scm.com/book/zh/v2)
