@@ -12,17 +12,29 @@ iOS 原生的二维码识别非常之棒，反正比 ZXing 和 ZBar 效果都好
 
 ---
 
-# 一.注意事项
+# 一. 注意事项
 
-最低需要 XCode 8。0 以及 Swift 3.0。
+最低需要 XCode 8.0 以及 Swift 3.0。
 
-# 二.调用
+# 二. 示例
+
+1. 利用 `git clone` 命令下载仓库；
+2. 利用 cd 命令切换到 Example 目录下，执行 `pod install` 命令；
+3. 随后打开 `EFQRCode.xcworkspace` 编译即可。
+
+或执行以下命令：
+
+```bash
+git clone git@github.com:EyreFree/EFQRCode.git; cd EFQRCode/Example; pod install; open EFQRCode.xcworkspace
+```
+
+# 三. 调用
 
 首先，需要在 Podfile 中引入：
 
 
 ```
-pod "EFQRCode", '~> 1.0.0'
+pod "EFQRCode", '~> 1.1.0'
 ```
 
 什么，你不知道 Pod？可以参考这里的 [CocoaPods安装和使用教程](http://code4app.com/article/cocoapods-install-usage)。
@@ -33,25 +45,9 @@ pod "EFQRCode", '~> 1.0.0'
 import EFQRCode
 ```
 
-# 三.二维码识别
+# 四. 二维码识别
 
-给 UIImage 添加了扩展，二维码识别可以通过 UIImage 对象来调用：
-
-```swift
-if let testImage = UIImage(named: "test.png") {
-	let codes = testImage.toQRCodeString()
-	if codes.count > 0 {
-		print("There are \(codes.count) codes in testImage.")
-		for (index, code) in codes.enumerated() {
-       			print("The content of \(index) QR Code is: \(code).")
-		}
-	} else {
-		print("There is no QR Codes in testImage.")
-	}
-}
-```
-
-也可以通过类方法来调用：
+获取图片中所包含的二维码，同一张图片中可能包含多个二维码，所以返回值是一个字符串数组：
 
 ```swift
 if let testImage = UIImage(named: "test.png") {
@@ -67,45 +63,69 @@ if let testImage = UIImage(named: "test.png") {
 }
 ```
 
-# 四.二维码生成
-
-可以通过 UIImage 初始化方法来进行二维码生成：
+# 五. 二维码生成
 
 ```swift
-if let tryImage = UIImage(QRCodeString: "what the hell.", size: 200, inputCorrectionLevel: .m, iconImage: UIImage(named: "eyrefree"), iconImageSize: 10.0) {
-	print("Create QRCode image success!")
+if let tryImage = EFQRCode.createQRImage(
+    string: "https://github.com/EyreFree/EFQRCode",
+    inputCorrectionLevel: .h,
+    size: 750,
+    quality: .low,
+    backColor: .white,
+    frontColor: .black,
+    icon: nil,
+    iconSize: nil,
+    iconColorful: true,
+    watermark: UIImage(named: "eyrefree"),
+    watermarkMode: .scaleAspectFill,
+    watermarkColorful: false
+    ) {
+    print("Create QRCode image success!")
 } else {
-	print("Create QRCode image failed!")
-}
-```
-
-同样的，也可以通过类方法类进行调用：
-
-```swift
-if let tryImage = EFQRCode.CreateQRCodeImage(With: "what the hell.", size: 200, inputCorrectionLevel: .m, iconImage: UIImage(named: "eyrefree"), iconImageSize: 10.0) {
-	print("Create QRCode image success!")
-} else {
-	print("Create QRCode image failed!")
+    print("Create QRCode image failed!")
 }
 ```
 
 这里的参数意义如下：
 
 ```swift
-// QRCodeString: 二维码内容
-// size (可选): 二维码边长
-// inputCorrectionLevel (可选): 容错率
-// 		L 7%
-// 		M 15%
-// 		Q 25%
-// 		H 30%
-// iconImage (可选): 中心图标
-// iconImageSize (可选): 图标边长
+//                          string: 二维码内容
+// inputCorrectionLevel (Optional): 容错率
+//                                  L 7%
+//                                  M 15%
+//                                  Q 25%
+//                                  H 30%
+//                 size (Optional): 边长
+//              quality (Optional): 质量
+//            backColor (Optional): 背景色
+//           frontColor (Optional): 前景色
+//                 icon (Optional): 中心图标
+//             iconSize (Optional): 中心图标边长
+//         iconColorful (Optional): 中心图标是否为彩色
+//            watermark (Optional): 水印图
+//        watermarkMode (Optional): 水印图模式
+//    watermarkColorful (Optional): 水印图是否为彩色
 ```
 
-# 五. 预览
+# 六. 预览
 
 ![预览](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/screenshot.png)
+
+# 七. 输出示例
+
+![](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/QRCode1.jpg)|![](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/QRCode2.jpg)|![](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/QRCode4.jpg)|![](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/QRCode6.jpg)  
+:---------------------:|:---------------------:|:---------------------:|:---------------------:
+![](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/QRCode7.jpg)|![](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/QRCode8.jpg)|![](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/QRCode9.jpg)|![](https://raw.githubusercontent.com/EyreFree/EFQRCode/master/assets/QRCode10.jpg) 
+
+# 八. 备注
+
+1. 请选用对比度较高的前景色和背景色组合；
+2. 想要提高生成二维码的清晰度可以选择提高质量和二维码边长；
+3. 质量过高／边长过大／二维码内容过多可能会导致生成失败；
+4. 建议对生成的二维码进行测试后投入使用；
+5. 若有任何问题，期待得到您的反馈，Issue 和 Pull request 都是受欢迎的。
+
+备注的备注：好用的话可以给个[星星](https://github.com/EyreFree/EFQRCode)，蟹蟹，QAQ...
 
 ---
 本文链接：[http://www.eyrefree.org/2017/01/25/2017-01-25-EFQRCode/](http://www.eyrefree.org/2017/01/25/2017-01-25-EFQRCode/)
