@@ -221,6 +221,14 @@ link:
     info: PHP终极粉丝
     url: https://blog.hainuo.info/
     avatar: https://dn-coding-net-avatar.qbox.me/4cc88a4e-7adc-469f-98a5-6091ef2a35c3.jpg
+  - name: 六阿哥博客
+    info: 记录一个iOS程序员的成长历程
+    url: https://blog.6ag.cn
+    avatar: https://avatars0.githubusercontent.com/u/9330618?v=3&s=460
+  - name: Guardia·瓜地
+    info: Innovation, in iOS development.
+    url: http://www.desgard.com/
+    avatar: https://avatars3.githubusercontent.com/u/7804535?v=3&s=460
   - name: SuperDanny
     info: 一个不知天高地厚的小屁孩
     url: http://superdanny.link/
@@ -253,6 +261,10 @@ link:
     info: 不喜欢画画的程序猿不是好翻译
     url: http://mmoaay.photo/
     avatar: http://mmoaay.photo/images/mmoaay.png
+  - name: LPD-iOS
+    info: 饿了么物流 iOS 开发组博客
+    url: https://lpd-ios.github.io/
+    avatar: https://avatars2.githubusercontent.com/u/24349774?v=3&s=200
 
 project:
   - type: personal
