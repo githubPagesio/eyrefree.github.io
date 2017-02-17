@@ -28,9 +28,9 @@ home_nav:
   - name: GitHub
     url: http://github.com/eyrefree
     target: _blank
-  #- name: LinkedIn
-  #  url: http://www.linkedin.com/in/eyrefree
-  #  target: _blank
+  - name: LinkedIn
+    url: http://www.linkedin.com/in/eyrefree
+    target: _blank
   - name: V2EX
     url: http://v2ex.com/member/eyrefree
     target: _blank
@@ -153,11 +153,11 @@ about:
   #   text_key: 微信
   #   text_value: "EyreFreePro"
   #   text_value_url: http://bedroom.eyrefree.org/images/eyrefreepro.png
-  # - type: weibo
-  #   icon: icon-weibo
-  #   text_key: 微博
-  #   text_value: "EyreFree"
-  #   text_value_url: http://weibo.com/eyrefree777
+  - type: weibo
+    icon: icon-weibo
+    text_key: 微博
+    text_value: "EyreFree"
+    text_value_url: http://weibo.com/eyrefree777
   # - type: twitter
   #   icon: icon-twitter
   #   text_key: 推特
@@ -276,23 +276,10 @@ project:
     url: https://eyrefree.github.io/VSCAM/
     intro: 摄影 交流 分享 - 极简主义图片分享应用
   - type: personal
-    name: CodingEmoji
-    url: https://eyrefree.github.io/CodingEmoji/
-    intro: iOS 洋葱猴-表情包
+    name: EFQRCode
+    url: https://eyrefree.github.io/EFQRCode/
+    intro: iOS 二维码扫描／艺术二维码生成
   - type: personal
     name: TencentLinkupPlugin
     url: https://github.com/EyreFree/TencentLinkupPlugin
     intro: 腾讯游戏大厅连连看辅助
-  - type: personal
-    name: Gobang
-    url: https://github.com/EyreFree/Gobang
-    intro: Cocos2d-x 人机对战五子棋游戏
-  - type: personal
-    name: mspaint
-    url: https://github.com/EyreFree/mspaint
-    intro: C# 高仿 Windows 画图板
-  - type: personal
-    name: RetroSnakerJS
-    url: https://8bit-game-studio.github.io/RetroSnakerJS/
-    intro: 贪吃蛇 JS 版
-    
