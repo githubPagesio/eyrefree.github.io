@@ -40,7 +40,7 @@ UID 是一个数字，它是我们在广点通的账户 ID，打开[广点通](h
 
 # 二，实现 API 上报方案
 
-根据文档实现了 API 上报方案流程，代码参见：[EFGuangDianTong.swift](https://github.com/EyreFree/EFGuangDianTongDemo/blob/master/EFGuangDianTongDemo/EFGuangDianTong.swift)
+根据文档实现了 API 上报方案流程，代码参见：[https://github.com/EyreFree/EFGuangDianTongDemo/blob/master/EFGuangDianTongDemo/EFGuangDianTong.swift](https://github.com/EyreFree/EFGuangDianTongDemo/blob/master/EFGuangDianTongDemo/EFGuangDianTong.swift)
 
 # 三，调用方式
 
@@ -68,10 +68,10 @@ UID 是一个数字，它是我们在广点通的账户 ID，打开[广点通](h
 
 ```swift
 EFGuangDianTong.sharedInstance.Schema2(
-    appid: 111111111,              //替换为我们的 Apple ID
-    uid: 222222,                   //替换为我们的 UID
-    signKey: "xxxxxxxxxxxxxxxx",   //替换为我们的 sign_key
-    encryptKey: "zzzzzzzzzzzzzzzz" //替换为我们的 encrypt_key
+      appid: 111111111,              //替换为我们的 Apple ID
+      uid: 222222,                   //替换为我们的 UID
+      signKey: "xxxxxxxxxxxxxxxx",   //替换为我们的 sign_key
+      encryptKey: "zzzzzzzzzzzzzzzz" //替换为我们的 encrypt_key
 )
 ```
 
@@ -79,6 +79,10 @@ EFGuangDianTong.sharedInstance.Schema2(
 
 若上报成功，则 XCode 下方的控制台会输出“广点通上报:成功”；
 若失败则会根据返回码输出具体失败原因，可以根据输出的错误信息来做相应的检查。
+
+# 四，备注
+
+集成广点通需要使用 IDFA，请在 App 提交审核时注意勾选相应选项，否则容易导致二进制文件被拒绝。
 
 ---
 本文链接：[http://www.eyrefree.org/2016/02/18/2016-02-18-iOS-GuangDianTong/](http://www.eyrefree.org/2016/02/18/2016-02-18-iOS-GuangDianTong/)
