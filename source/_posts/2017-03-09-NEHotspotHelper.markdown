@@ -76,7 +76,7 @@ Demo 地址：[https://github.com/EyreFree/EFNEHotspotHelperDemo](https://github
 
 ![添加 Profile](http://upload-images.jianshu.io/upload_images/1018190-42e294701187033a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-可以到 XCode 的账户设置里查看已安装的 Profile，若未安装成功可以尝试点击 Action 中的 Dwoenload 按钮重新下载：
+可以到 XCode 的账户设置里查看已安装的 Profile，若未安装成功可以尝试点击 Action 中的 Download 按钮重新下载：
 
 ![查看已安装的 Profile](http://upload-images.jianshu.io/upload_images/1018190-99fff3c8f41706d3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
