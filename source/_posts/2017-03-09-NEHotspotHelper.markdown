@@ -111,6 +111,13 @@ Demo 地址：[https://github.com/EyreFree/EFNEHotspotHelperDemo](https://github
 
 ![添加 HotspotHelper 权限代码](http://upload-images.jianshu.io/upload_images/1018190-065ba9d93185a539.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+代码如下：
+
+```xml
+<key>com.apple.developer.networking.HotspotHelper</key>
+<true/>
+```
+
 好了，到这里已经完成了各种乱七八糟的配置工作，可以尝试进行 Build。如果没有提示错误信息的话，接下来就可以愉快地使用 HotspotHelper 了；如果有问题的话，请检查之前的步骤是否都已正确完成或者根据错误信息修改具体项目。
 
 # 五. 核心代码
