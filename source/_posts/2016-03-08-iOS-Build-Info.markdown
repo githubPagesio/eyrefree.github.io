@@ -7,7 +7,7 @@ tag: Nothing
 ---
 
 iOS 在 App 中获取当前版本的构建时间和 Git Hash 值，Demo 地址：  
-[https://github.com/EyreFree/BuildInfoDemo](https://github.com/EyreFree/BuildInfoDemo)
+[https://github.com/EyreFree/EFBuildInfoDemo](https://github.com/EyreFree/EFBuildInfoDemo)
 
 ---
 # 1.添加 Run Script
