@@ -130,8 +130,8 @@ init_page_content: HOME_NAV  # HOME_NAV | POST
 baidu_analytics: 638f7245dab1e13e3d8fbdd9cc3b0895
 
 # Comment service
-#disqus_shortname: eyrefree
-duoshuo_shortname: eyrefree
+disqus_shortname: eyrefree
+#duoshuo_shortname: eyrefree
 
 
 # =========================================================
