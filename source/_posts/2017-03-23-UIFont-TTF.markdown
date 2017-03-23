@@ -78,13 +78,13 @@ for fontFamily in UIFont.familyNames {
 
 # 4. 字体的使用
 
-#### 1. StoryBoard
+## 1. StoryBoard
 
 在 StoryBoard 中使用的话，只需要设置控件的 Font 属性为，选择 Custom，然后再从 Family 中选择需要的字体即可。
 
 ![在 StoryBoard 中使用](http://upload-images.jianshu.io/upload_images/1018190-ae1d2f52ed178db2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#### 2. 代码
+## 2. 代码
 
 我们直接通过如下代码直接生成一个楷体的字体对象，将其赋给 UIButton 或者 UILabel 等空间对应的属性即可。
 
