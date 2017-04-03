@@ -277,12 +277,12 @@ link:
 project:
   - type: personal
     name: VSCAM
-    url: https://eyrefree.github.io/VSCAM/
+    url: https://github.com/EyreFree/VSCAM
     intro: 摄影 交流 分享 - 极简主义图片分享应用
   - type: personal
     name: EFQRCode
-    url: https://eyrefree.github.io/EFQRCode/
-    intro: iOS 二维码扫描／艺术二维码生成
+    url: https://github.com/EyreFree/EFQRCode
+    intro: iOS 艺术二维码生成
   - type: personal
     name: TencentLinkupPlugin
     url: https://github.com/EyreFree/TencentLinkupPlugin
