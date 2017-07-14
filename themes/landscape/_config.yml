@@ -158,11 +158,11 @@ about:
     text_key: 微博
     text_value: "EyreFree"
     text_value_url: http://weibo.com/eyrefree777
-  # - type: twitter
-  #   icon: icon-twitter
-  #   text_key: 推特
-  #   text_value: "EyreFree777"
-  #   text_value_url: https://twitter.com/EyreFree777
+  - type: twitter
+    icon: icon-twitter
+    text_key: 推特
+    text_value: "EyreFree777"
+    text_value_url: https://twitter.com/EyreFree777
   - type: mail
     icon: icon-mail
     text_key: 邮箱
