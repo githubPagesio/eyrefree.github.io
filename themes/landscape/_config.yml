@@ -16,9 +16,9 @@ home_nav:
   - name: 博客
     url: /archives
     target: _blank
-  - name: 简历
-    url: http://resume.eyrefree.org/
-    target: _blank
+  # - name: 简历
+  #   url: http://resume.eyrefree.org/
+  #   target: _blank
   - name: 简书
     url: http://www.jianshu.com/users/e4d1f69048ea
     target: _blank
@@ -28,9 +28,9 @@ home_nav:
   - name: GitHub
     url: http://github.com/eyrefree
     target: _blank
-  - name: LinkedIn
-    url: http://www.linkedin.com/in/eyrefree
-    target: _blank
+  # - name: LinkedIn
+  #   url: http://www.linkedin.com/in/eyrefree
+  #   target: _blank
   - name: V2EX
     url: http://v2ex.com/member/eyrefree
     target: _blank
