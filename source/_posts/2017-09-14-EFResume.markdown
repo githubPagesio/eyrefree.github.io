@@ -63,6 +63,6 @@ EFResume 基于 GPLv3 协议进行分发和使用，更多信息参见协议文�
 
 ---
 
-本文链接：[http://www.jianshu.com/p/268c26e5feeb](http://www.jianshu.com/p/268c26e5feeb)
+本文链接：[http://www.eyrefree.org/2017/09/14/2017-09-14-EFResume/](http://www.eyrefree.org/2017/09/14/2017-09-14-EFResume/)
 
 如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

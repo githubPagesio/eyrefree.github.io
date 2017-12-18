@@ -70,6 +70,6 @@ EFQRCode 基于 MIT 协议进行分发和使用，更多信息参见协议文件
 
 ---
 
-本文链接：[http://www.jianshu.com/p/b32a6974b336](http://www.jianshu.com/p/b32a6974b336)
+本文链接：[http://www.eyrefree.org/2017/10/09/2017-10-09-EFColorPicker/](http://www.eyrefree.org/2017/10/09/2017-10-09-EFColorPicker/)
 
 如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)

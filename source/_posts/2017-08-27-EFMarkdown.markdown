@@ -115,6 +115,6 @@ EFMarkdown 基于 WTFPL 协议进行分发和使用，更多信息参见协议�
 
 ---
 
-本文链接：[http://www.jianshu.com/p/2e6fb93fd97d](http://www.jianshu.com/p/2e6fb93fd97d)
+本文链接：[http://www.eyrefree.org/2017/08/27/2017-08-27-EFMarkdown/](http://www.eyrefree.org/2017/08/27/2017-08-27-EFMarkdown/)
 
 如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)
