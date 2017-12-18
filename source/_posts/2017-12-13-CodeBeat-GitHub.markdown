@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 利用 CodeBeat 为你在 GitHub 上的项目进行代码质量管理
-date: 2017-12-12 10:00:00 -05:00
+date: 2017-12-13 10:00:00 -05:00
 categories: GitHub
 tag: CodeBeat
 ---
@@ -59,6 +59,6 @@ CodeBeat 的同类产品有 Code Climate，目前支持 Ruby、Python、PHP、Ja
 
 ---
 
-本文链接：[http://www.eyrefree.org/2017/12/12/2017-12-12-CodeBeat-GitHub/](http://www.eyrefree.org/2017/12/12/2017-12-12-CodeBeat-GitHub/)
+本文链接：[http://www.eyrefree.org/2017/12/13/2017-12-13-CodeBeat-GitHub/](http://www.eyrefree.org/2017/12/13/2017-12-13-CodeBeat-GitHub/)
 
 如文中无特殊说明，本站均使用以下协议保护：[署名-非商业性使用-禁止演绎](http://creativecommons.org/licenses/by-nc-nd/3.0/cn/)
