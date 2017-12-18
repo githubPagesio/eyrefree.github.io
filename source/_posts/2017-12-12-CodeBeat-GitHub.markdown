@@ -2,8 +2,8 @@
 layout: post
 title: 利用 CodeBeat 为你在 GitHub 上的项目进行代码质量管理
 date: 2017-12-12 10:00:00 -05:00
-categories: AppStore
-tag: macOS
+categories: GitHub
+tag: CodeBeat
 ---
 
 CodeBeat 是一个免费为开源项目进行代码质量管理的工具（付费可以支持私有项目），目前已经支持的编程语言有 Swift、Objective-C、Go、Ruby、Python、Java、Kotlin、Javascript、Typescript、Elixir，无需对原有项目进行任何修改即可获取针对项目的完整质量分析，方便快捷。

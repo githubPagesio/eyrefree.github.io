@@ -2,7 +2,7 @@
 layout: post
 title: 利用 Travis-CI 让你在 GitHub 上的 CocoaPods 库持续构建
 date: 2017-03-16 10:00:00 -05:00
-categories: iOS
+categories: GitHub
 tag: Travis-CI
 ---
 
