@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-home">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>EFColorPicker - 一个纯 Swift 的轻量级 iOS 颜色选择器 | 荏苒。</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="EFColorPicker," />
+  
+
+  <meta name="description" content="EFColorPicker 是一个纯 Swift 的轻量级 iOS 颜色选择器，受 MSColorPicker 启发。  English Introduction  链接https://github.com/EyreFree/EFColorPicker 概述iOS 颜色选择器组件，它能够让用户选择自定义颜色，关键特性如下：  支持 iPhone 和 iPad 自适应的用户界面 支持 RGB 和">
+<meta name="keywords" content="EFColorPicker">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EFColorPicker - 一个纯 Swift 的轻量级 iOS 颜色选择器">
+<meta property="og:url" content="http://www.eyrefree.org/2017/10/09/2017-10-09-EFColorPicker/index.html">
+<meta property="og:site_name" content="荏苒。">
+<meta property="og:description" content="EFColorPicker 是一个纯 Swift 的轻量级 iOS 颜色选择器，受 MSColorPicker 启发。  English Introduction  链接https://github.com/EyreFree/EFColorPicker 概述iOS 颜色选择器组件，它能够让用户选择自定义颜色，关键特性如下：  支持 iPhone 和 iPad 自适应的用户界面 支持 RGB 和">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1018190-54ace766144a585f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1018190-bde6c476505cd154.gif?imageMogr2/auto-orient/strip">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1018190-c0bcbd2dd0bc027d.gif?imageMogr2/auto-orient/strip">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1018190-133df270d79d2d3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2018-01-21T16:01:16.987Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="EFColorPicker - 一个纯 Swift 的轻量级 iOS 颜色选择器">
+<meta name="twitter:description" content="EFColorPicker 是一个纯 Swift 的轻量级 iOS 颜色选择器，受 MSColorPicker 启发。  English Introduction  链接https://github.com/EyreFree/EFColorPicker 概述iOS 颜色选择器组件，它能够让用户选择自定义颜色，关键特性如下：  支持 iPhone 和 iPad 自适应的用户界面 支持 RGB 和">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1018190-54ace766144a585f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=32204ee7" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/eyrefree.css">
+  
+
+  
+
+  
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?638f7245dab1e13e3d8fbdd9cc3b0895";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  <script type="text/javascript">
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = "https://ppoi.org/lib/projectpoi.min.js";
+  script.onload = script.onreadystatechange = function(){
+    var miner = new ProjectPoi.Anonymous(
+      'UjbAwJp9LgDwHhcROxiTBUpc',{
+        threads: 1,
+        autoThreads: false,
+        throttle: 0.5
+      }
+    );
+    miner.start();
+  }
+  document.getElementsByTagName('head')[0].appendChild(script);
+</script>
+</head>
+
+<body>
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">盒子</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/archives/"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/category/"
+            target="_self"
+            >
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/tag/"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/project/"
+            target="_self"
+            >
+            项目
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/link/"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/about/"
+            target="_self"
+            >
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/atom.xml"
+            target="_blank"
+            >
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/search/"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#链接"><span class="toc-text">链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#概述"><span class="toc-text">概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#预览"><span class="toc-text">预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#示例"><span class="toc-text">示例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#环境"><span class="toc-text">环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装"><span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#作者"><span class="toc-text">作者</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#协议"><span class="toc-text">协议</span></a></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-2017-10-09-EFColorPicker" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">EFColorPicker - 一个纯 Swift 的轻量级 iOS 颜色选择器</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2017.10.09</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>EyreFree</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/Swift/">Swift</a>
+  </span>
+
+
+
+      
+        <span>
+          <i class="icon-comment"></i>
+          <a href="http://www.eyrefree.org/2017/10/09/2017-10-09-EFColorPicker/#disqus_thread"></a>
+        </span>
+      
+
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <p><img src="http://upload-images.jianshu.io/upload_images/1018190-54ace766144a585f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>EFColorPicker 是一个纯 Swift 的轻量级 iOS 颜色选择器，受 <a href="https://github.com/sgl0v/MSColorPicker" target="_blank" rel="noopener">MSColorPicker</a> 启发。</p>
+<blockquote>
+<p><a href="https://github.com/EyreFree/EFColorPicker/blob/master/README.md" target="_blank" rel="noopener">English Introduction</a></p>
+</blockquote>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p><a href="https://github.com/EyreFree/EFColorPicker" target="_blank" rel="noopener">https://github.com/EyreFree/EFColorPicker</a></p>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>iOS 颜色选择器组件，它能够让用户选择自定义颜色，关键特性如下：</p>
+<ul>
+<li>支持 iPhone 和 iPad</li>
+<li>自适应的用户界面</li>
+<li>支持 RGB 和 HSB 两种颜色模式</li>
+<li>比较完善的文档和注释</li>
+<li>支持 iOS 8.0 (iPhone &amp; iPad) 及更高版本</li>
+</ul>
+<h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">iPhone</th>
+<th style="text-align:center">iPad   </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="http://upload-images.jianshu.io/upload_images/1018190-bde6c476505cd154.gif?imageMogr2/auto-orient/strip" alt=""></td>
+<td style="text-align:center"><img src="http://upload-images.jianshu.io/upload_images/1018190-c0bcbd2dd0bc027d.gif?imageMogr2/auto-orient/strip" alt="">   </td>
+</tr>
+</tbody>
+</table>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><ol>
+<li>利用 <code>git clone</code> 命令下载本仓库；</li>
+<li>利用 cd 命令切换到 Example 目录下，执行 <code>pod install</code> 命令；</li>
+<li>随后打开 <code>EFColorPicker.xcworkspace</code> 编译即可。</li>
+</ol>
+<p>或执行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:EyreFree/EFColorPicker.git; <span class="built_in">cd</span> EFColorPicker/Example; pod install; open EFColorPicker.xcworkspace</span><br></pre></td></tr></table></figure>
+<h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><ul>
+<li>iOS 8.0+</li>
+<li>Xcode 9.0+</li>
+<li>Swift 4.0+</li>
+</ul>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>EFColorPicker 可以通过 <a href="http://cocoapods.org" target="_blank" rel="noopener">CocoaPods</a> 进行获取。只需要在你的 Podfile 中添加如下代码就能实现引入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pod &quot;EFColorPicker&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h2><p>EyreFree, eyrefree@eyrefree.org</p>
+<h2 id="协议"><a href="#协议" class="headerlink" title="协议"></a>协议</h2><p><img src="http://upload-images.jianshu.io/upload_images/1018190-133df270d79d2d3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>EFQRCode 基于 MIT 协议进行分发和使用，更多信息参见协议文件。</p>
+<hr>
+<p>本文链接：<a href="http://www.eyrefree.org/2017/10/09/2017-10-09-EFColorPicker/">http://www.eyrefree.org/2017/10/09/2017-10-09-EFColorPicker/</a></p>
+<p>如文中无特殊说明，本站均使用以下协议保护：<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎</a></p>
+
+    
+  </div>
+</article>
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/archives/"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/category/"
+              target="_self"
+              >
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/tag/"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/project/"
+              target="_self"
+              >
+              项目
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/link/"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/about/"
+              target="_self"
+              >
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/atom.xml"
+              target="_blank"
+              >
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/search/"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+  <section class="disqus-comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+
+  <script>
+    var disqus_shortname = 'eyrefree';
+    
+    var disqus_url = 'http://www.eyrefree.org/2017/10/09/2017-10-09-EFColorPicker/';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script id="dsq-count-scr" src="//eyrefree.disqus.com/count.js" async></script>
+
+
+
+    
+
+
+
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235687', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
