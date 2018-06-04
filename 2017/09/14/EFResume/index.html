@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-post">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>EFResume - 一个普通的 Swift 简历模板 | 荏苒。</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="Resume," />
+  
+
+  <meta name="description" content="EFResume 是一个普通的简历模板（可能还称不上），用 Swift 进行开发，受 zresume 启发，因为 zresume 是基于容器技术的然后需要服务器支持，然而对此技术 EyreFree 表示一窍不通并且囊中羞涩但是觉得这份简历真的非常好看呢，所以就只能自己动手改成静态模板了，😂。设计稿来源于 FREE Resume Template。欢迎大家提 Issue 和 PR，希望能和大家一">
+<meta name="keywords" content="Resume">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EFResume - 一个普通的 Swift 简历模板">
+<meta property="og:url" content="http://www.eyrefree.org/2017/09/14/EFResume/index.html">
+<meta property="og:site_name" content="荏苒。">
+<meta property="og:description" content="EFResume 是一个普通的简历模板（可能还称不上），用 Swift 进行开发，受 zresume 启发，因为 zresume 是基于容器技术的然后需要服务器支持，然而对此技术 EyreFree 表示一窍不通并且囊中羞涩但是觉得这份简历真的非常好看呢，所以就只能自己动手改成静态模板了，😂。设计稿来源于 FREE Resume Template。欢迎大家提 Issue 和 PR，希望能和大家一">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1018190-879153e48fb39720.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1018190-f54ae220436583f2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1018190-4922d1f639709d4c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2018-01-21T16:01:16.986Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="EFResume - 一个普通的 Swift 简历模板">
+<meta name="twitter:description" content="EFResume 是一个普通的简历模板（可能还称不上），用 Swift 进行开发，受 zresume 启发，因为 zresume 是基于容器技术的然后需要服务器支持，然而对此技术 EyreFree 表示一窍不通并且囊中羞涩但是觉得这份简历真的非常好看呢，所以就只能自己动手改成静态模板了，😂。设计稿来源于 FREE Resume Template。欢迎大家提 Issue 和 PR，希望能和大家一">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1018190-879153e48fb39720.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=c114cbe6" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+
+  
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?638f7245dab1e13e3d8fbdd9cc3b0895";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+	(function(){
+	    var bp = document.createElement('script');
+	    var curProtocol = window.location.protocol.split(':')[0];
+	    if (curProtocol === 'https') {
+	        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+	    }
+	    else {
+	        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	    }
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(bp, s);
+	})();
+  </script>
+
+
+
+  
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">盒子</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/archives/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/category/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/tag/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/project/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            项目
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/link/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/about/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/atom.xml"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/search/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#地址"><span class="toc-text">地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#预览"><span class="toc-text">预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#示例"><span class="toc-text">示例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#环境"><span class="toc-text">环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装"><span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用"><span class="toc-text">使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#作者"><span class="toc-text">作者</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#协议"><span class="toc-text">协议</span></a></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-EFResume" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">EFResume - 一个普通的 Swift 简历模板</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2017.09.14</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>EyreFree</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/iOS/">iOS</a>
+  </span>
+
+
+
+      
+
+      
+      <i class="fa fa-eye"></i> 
+        <span id="busuanzi_container_page_pv">
+           &nbsp热度 <span id="busuanzi_value_page_pv">
+           <i class="fa fa-spinner fa-spin"></i></span>℃
+        </span>
+      
+      
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <p><img src="http://upload-images.jianshu.io/upload_images/1018190-879153e48fb39720.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>EFResume 是一个普通的简历模板（可能还称不上），用 Swift 进行开发，受 <a href="https://github.com/izuolan/zresume" target="_blank" rel="noopener">zresume</a> 启发，因为 zresume 是基于容器技术的然后需要服务器支持，然而对此技术 EyreFree 表示一窍不通并且囊中羞涩但是觉得这份简历真的非常好看呢，所以就只能自己动手改成静态模板了，😂。设计稿来源于 <a href="https://www.behance.net/gallery/15677411/FREE-Resume-Template" target="_blank" rel="noopener">FREE Resume Template</a>。欢迎大家提 Issue 和 PR，希望能和大家一起改进这份简历，然后好用的话望大佬们赏个 Star，🙏，有问题可以来撩我。</p>
+<blockquote>
+<p><a href="https://github.com/EyreFree/EFResume/blob/master/README.md" target="_blank" rel="noopener">English Introduction</a></p>
+</blockquote>
+<h2 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h2><p><a href="https://github.com/EyreFree/EFResume" target="_blank" rel="noopener">https://github.com/EyreFree/EFResume</a></p>
+<h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p><img src="http://upload-images.jianshu.io/upload_images/1018190-f54ae220436583f2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><a href="https://eyrefree.github.io/EFResume/" target="_blank" rel="noopener">https://eyrefree.github.io/EFResume/</a></p>
+<h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><ul>
+<li>XCode 8.0+</li>
+<li>Swift 3.0+</li>
+</ul>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ol>
+<li>唔，首先需要安装 Xcode；</li>
+<li>利用 <code>git clone</code> 命令下载本仓库；</li>
+<li>随后打开 core 目录下的 <code>EFResume.xcworkspace</code> 编译即可。</li>
+</ol>
+<p>或执行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:EyreFree/EFResume.git; <span class="built_in">cd</span> EFResume/core; open EFResume.xcworkspace</span><br></pre></td></tr></table></figure>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ol>
+<li>用 Xcode 打开工程；</li>
+<li>打开 main.swift 文件，编辑 input 函数中对应的文本，将信息修改为自己的即可；</li>
+<li>编辑完成后直接编译即可；</li>
+<li>打开 docs 目录下的 index.html 可在本地进行预览；</li>
+<li>将本地变更提交到远端 Git 仓库；</li>
+<li>打开 GitHub 的 Pages 服务，选择 /docs 路径作为根路径，即可生成在线简历同时获得 URL 地址。</li>
+<li>祝好运，👍</li>
+</ol>
+<h2 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h2><p>EyreFree, eyrefree@eyrefree.org</p>
+<h2 id="协议"><a href="#协议" class="headerlink" title="协议"></a>协议</h2><p><img src="http://upload-images.jianshu.io/upload_images/1018190-4922d1f639709d4c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>EFResume 基于 GPLv3 协议进行分发和使用，更多信息参见协议文件。</p>
+<hr>
+<p>本文链接：<a href="http://www.eyrefree.org/2017/09/14/2017-09-14-EFResume/">http://www.eyrefree.org/2017/09/14/2017-09-14-EFResume/</a></p>
+<p>如文中无特殊说明，本站均使用以下协议保护：<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎</a></p>
+
+    
+  </div>
+
+  
+      
+<!-- Gitalk评论插件通用代码 -->
+<div id="git"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+const gitalk = new Gitalk({
+  clientID: 'f0ba789df6609f62044d',
+  clientSecret: '75f0fc8ccefb72c7c8585ddc2a3f0663e69139f1',
+  repo: 'EFGitalk',
+  owner: 'EyreFree',
+  admin: ['EyreFree'],
+  // facebook-like distraction free mode
+  distractionFreeMode: false
+})
+gitalk.render('git')
+</script>
+<!-- Gitalk代码结束 -->
+
+
+
+  
+
+</article>
+
+
+   
+  <div class="text-center donation">
+    <div class="inner-donation">
+      <span class="btn-donation">支持一下</span>
+      <div class="donation-body">
+        <div class="tip text-center">给 EyreFree 投食，QAQ</div>
+        <ul>
+        
+          <li class="item">
+            
+            <img src="/AliPay.png" alt="">
+          </li>
+        
+          <li class="item">
+            
+            <img src="/WeChat.png" alt="">
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+   
+  <div class="box-prev-next clearfix">
+    <a class="show pull-left" href="/2017/08/27/EFMarkdown/">
+        <i class="icon icon-angle-left"></i>
+    </a>
+    <a class="show pull-right" href="/2017/10/09/EFColorPicker/">
+        <i class="icon icon-angle-right"></i>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/archives/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/category/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/tag/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/project/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              项目
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/link/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/about/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/atom.xml"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/search/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+    
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>

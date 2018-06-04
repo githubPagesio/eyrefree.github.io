@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-  <html class="light page-home">
+  <html class="light page-search">
 
 
 <head>
@@ -32,11 +32,11 @@
     <link rel="icon" href="/favicon.ico">
   
 
-  <link href="/css/styles.css?v=32204ee7" rel="stylesheet">
+  <link href="/css/styles.css?v=c114cbe6" rel="stylesheet">
 
 
   
-    <link rel="stylesheet" href="/css/eyrefree.css">
+    <link rel="stylesheet" href="/css/personal-style.css">
   
 
   
@@ -53,25 +53,35 @@
   </script>
 
 
+  
   <script type="text/javascript">
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = "https://ppoi.org/lib/projectpoi.min.js";
-  script.onload = script.onreadystatechange = function(){
-    var miner = new ProjectPoi.Anonymous(
-      'UjbAwJp9LgDwHhcROxiTBUpc',{
-        threads: 1,
-        autoThreads: false,
-        throttle: 0.5
-      }
-    );
-    miner.start();
-  }
-  document.getElementsByTagName('head')[0].appendChild(script);
-</script>
+	(function(){
+	    var bp = document.createElement('script');
+	    var curProtocol = window.location.protocol.split(':')[0];
+	    if (curProtocol === 'https') {
+	        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+	    }
+	    else {
+	        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	    }
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(bp, s);
+	})();
+  </script>
+
+
+
+  
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
 </head>
 
 <body>
+
 
   
     <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
@@ -100,6 +110,7 @@
           <a
             class="CIRCLE"
             href="/archives/"
+            rel="noopener noreferrer"
             target="_self"
             >
             博客
@@ -110,6 +121,7 @@
           <a
             class="CIRCLE"
             href="/category/"
+            rel="noopener noreferrer"
             target="_self"
             >
             分类
@@ -120,6 +132,7 @@
           <a
             class="CIRCLE"
             href="/tag/"
+            rel="noopener noreferrer"
             target="_self"
             >
             标签
@@ -130,6 +143,7 @@
           <a
             class="CIRCLE"
             href="/project/"
+            rel="noopener noreferrer"
             target="_self"
             >
             项目
@@ -140,6 +154,7 @@
           <a
             class="CIRCLE"
             href="/link/"
+            rel="noopener noreferrer"
             target="_self"
             >
             友链
@@ -150,6 +165,7 @@
           <a
             class="CIRCLE"
             href="/about/"
+            rel="noopener noreferrer"
             target="_self"
             >
             关于
@@ -160,6 +176,7 @@
           <a
             class="CIRCLE"
             href="/atom.xml"
+            rel="noopener noreferrer"
             target="_blank"
             >
             RSS
@@ -170,6 +187,7 @@
           <a
             class="CIRCLE"
             href="/search/"
+            rel="noopener noreferrer"
             target="_self"
             >
             搜索
@@ -230,6 +248,7 @@
             <a
               class="CIRCLE"
               href="/archives/"
+              rel="noopener noreferrer"
               target="_self"
               >
               博客
@@ -240,6 +259,7 @@
             <a
               class="CIRCLE"
               href="/category/"
+              rel="noopener noreferrer"
               target="_self"
               >
               分类
@@ -250,6 +270,7 @@
             <a
               class="CIRCLE"
               href="/tag/"
+              rel="noopener noreferrer"
               target="_self"
               >
               标签
@@ -260,6 +281,7 @@
             <a
               class="CIRCLE"
               href="/project/"
+              rel="noopener noreferrer"
               target="_self"
               >
               项目
@@ -270,6 +292,7 @@
             <a
               class="CIRCLE"
               href="/link/"
+              rel="noopener noreferrer"
               target="_self"
               >
               友链
@@ -280,6 +303,7 @@
             <a
               class="CIRCLE"
               href="/about/"
+              rel="noopener noreferrer"
               target="_self"
               >
               关于
@@ -290,6 +314,7 @@
             <a
               class="CIRCLE"
               href="/atom.xml"
+              rel="noopener noreferrer"
               target="_blank"
               >
               RSS
@@ -300,6 +325,7 @@
             <a
               class="CIRCLE"
               href="/search/"
+              rel="noopener noreferrer"
               target="_self"
               >
               搜索
@@ -340,7 +366,7 @@
   }
 
   window.onload = function() {
-    loadScript('/js/bundle.js?235687', function() {
+    loadScript('/js/bundle.js?235683', function() {
       // load success
     });
   }

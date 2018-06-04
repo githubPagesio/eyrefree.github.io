@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-post">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>Git 常用命令 | 荏苒。</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="Nothing," />
+  
+
+  <meta name="description" content="Git 常用命令备忘  1.获取所有 SubModulegit submodule update --init --recursive 2.删除某个 SubModule例如：xxx git submodule deinit xxxgit rm xxx 3.添加 Tag例如：2.333 git tag -a 2.333 -m &quot;2.333 版本的备注信息.&quot; 4.上传本地 Tag 到服务器git p">
+<meta name="keywords" content="Nothing">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git 常用命令">
+<meta property="og:url" content="http://www.eyrefree.org/2015/04/09/Git-Commands/index.html">
+<meta property="og:site_name" content="荏苒。">
+<meta property="og:description" content="Git 常用命令备忘  1.获取所有 SubModulegit submodule update --init --recursive 2.删除某个 SubModule例如：xxx git submodule deinit xxxgit rm xxx 3.添加 Tag例如：2.333 git tag -a 2.333 -m &quot;2.333 版本的备注信息.&quot; 4.上传本地 Tag 到服务器git p">
+<meta property="og:image" content="http://www.eyrefree.org/images/git.png">
+<meta property="og:updated_time" content="2018-01-21T16:01:16.980Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Git 常用命令">
+<meta name="twitter:description" content="Git 常用命令备忘  1.获取所有 SubModulegit submodule update --init --recursive 2.删除某个 SubModule例如：xxx git submodule deinit xxxgit rm xxx 3.添加 Tag例如：2.333 git tag -a 2.333 -m &quot;2.333 版本的备注信息.&quot; 4.上传本地 Tag 到服务器git p">
+<meta name="twitter:image" content="http://www.eyrefree.org/images/git.png">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=c114cbe6" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+
+  
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?638f7245dab1e13e3d8fbdd9cc3b0895";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+	(function(){
+	    var bp = document.createElement('script');
+	    var curProtocol = window.location.protocol.split(':')[0];
+	    if (curProtocol === 'https') {
+	        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+	    }
+	    else {
+	        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	    }
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(bp, s);
+	})();
+  </script>
+
+
+
+  
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">盒子</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/archives/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/category/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/tag/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/project/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            项目
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/link/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/about/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/atom.xml"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/search/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-获取所有-SubModule"><span class="toc-text">1.获取所有 SubModule</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-删除某个-SubModule"><span class="toc-text">2.删除某个 SubModule</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-添加-Tag"><span class="toc-text">3.添加 Tag</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-上传本地-Tag-到服务器"><span class="toc-text">4.上传本地 Tag 到服务器</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-删除本地-Tag"><span class="toc-text">5.删除本地 Tag</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-同步本地与远程分支"><span class="toc-text">6.同步本地与远程分支</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-合并本地的最后两次-Commit"><span class="toc-text">7.合并本地的最后两次 Commit</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#8-修改上一次的-Commit-信息"><span class="toc-text">8.修改上一次的 Commit 信息</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#9-撤销所有未提交的本地修改"><span class="toc-text">9.撤销所有未提交的本地修改</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#10-删除远程仓库地址"><span class="toc-text">10.删除远程仓库地址</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#11-添加远程仓库地址"><span class="toc-text">11.添加远程仓库地址</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#12-Push-本地分支到指定远程分支"><span class="toc-text">12.Push 本地分支到指定远程分支</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#13-设置本地用户名、邮箱"><span class="toc-text">13.设置本地用户名、邮箱</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PS"><span class="toc-text">PS</span></a></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-Git-Commands" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">Git 常用命令</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2015.04.09</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>EyreFree</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/Git/">Git</a>
+  </span>
+
+
+
+      
+
+      
+      <i class="fa fa-eye"></i> 
+        <span id="busuanzi_container_page_pv">
+           &nbsp热度 <span id="busuanzi_value_page_pv">
+           <i class="fa fa-spinner fa-spin"></i></span>℃
+        </span>
+      
+      
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <p>Git 常用命令备忘</p>
+<hr>
+<h1 id="1-获取所有-SubModule"><a href="#1-获取所有-SubModule" class="headerlink" title="1.获取所有 SubModule"></a>1.获取所有 SubModule</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git submodule update --init --recursive</span><br></pre></td></tr></table></figure>
+<h1 id="2-删除某个-SubModule"><a href="#2-删除某个-SubModule" class="headerlink" title="2.删除某个 SubModule"></a>2.删除某个 SubModule</h1><p>例如：xxx</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git submodule deinit xxx</span><br><span class="line">git rm xxx</span><br></pre></td></tr></table></figure>
+<h1 id="3-添加-Tag"><a href="#3-添加-Tag" class="headerlink" title="3.添加 Tag"></a>3.添加 Tag</h1><p>例如：2.333</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git tag -a 2.333 -m <span class="string">"2.333 版本的备注信息."</span></span><br></pre></td></tr></table></figure>
+<h1 id="4-上传本地-Tag-到服务器"><a href="#4-上传本地-Tag-到服务器" class="headerlink" title="4.上传本地 Tag 到服务器"></a>4.上传本地 Tag 到服务器</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --tags</span><br></pre></td></tr></table></figure>
+<h1 id="5-删除本地-Tag"><a href="#5-删除本地-Tag" class="headerlink" title="5.删除本地 Tag"></a>5.删除本地 Tag</h1><p>例如：2.333</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git tag -d 2.333</span><br></pre></td></tr></table></figure>
+<p>这时可以趁机同时删除远程 Tag</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin :refs/tags/2.333</span><br></pre></td></tr></table></figure>
+<h1 id="6-同步本地与远程分支"><a href="#6-同步本地与远程分支" class="headerlink" title="6.同步本地与远程分支"></a>6.同步本地与远程分支</h1><p>删除远程不存在的本地分支</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git fetch --p</span><br></pre></td></tr></table></figure>
+<h1 id="7-合并本地的最后两次-Commit"><a href="#7-合并本地的最后两次-Commit" class="headerlink" title="7.合并本地的最后两次 Commit"></a>7.合并本地的最后两次 Commit</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git reset --soft HEAD^git commit --amend</span><br></pre></td></tr></table></figure>
+<h1 id="8-修改上一次的-Commit-信息"><a href="#8-修改上一次的-Commit-信息" class="headerlink" title="8.修改上一次的 Commit 信息"></a>8.修改上一次的 Commit 信息</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git commit --amend</span><br></pre></td></tr></table></figure>
+<h1 id="9-撤销所有未提交的本地修改"><a href="#9-撤销所有未提交的本地修改" class="headerlink" title="9.撤销所有未提交的本地修改"></a>9.撤销所有未提交的本地修改</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout .</span><br></pre></td></tr></table></figure>
+<h1 id="10-删除远程仓库地址"><a href="#10-删除远程仓库地址" class="headerlink" title="10.删除远程仓库地址"></a>10.删除远程仓库地址</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote remove origin</span><br></pre></td></tr></table></figure>
+<h1 id="11-添加远程仓库地址"><a href="#11-添加远程仓库地址" class="headerlink" title="11.添加远程仓库地址"></a>11.添加远程仓库地址</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote add origin https://git.coding.net/eyrefree/xxx.git</span><br></pre></td></tr></table></figure>
+<h1 id="12-Push-本地分支到指定远程分支"><a href="#12-Push-本地分支到指定远程分支" class="headerlink" title="12.Push 本地分支到指定远程分支"></a>12.Push 本地分支到指定远程分支</h1><p>例如：Push 本地当前分支到远程仓库 origin 的 master 分支</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+<h1 id="13-设置本地用户名、邮箱"><a href="#13-设置本地用户名、邮箱" class="headerlink" title="13.设置本地用户名、邮箱"></a>13.设置本地用户名、邮箱</h1><p>例如：设置用户名为 eyrefree，邮箱为 eyrefree@eyrefree.org</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"eyrefree"</span> git config --global user.email eyrefree@eyrefree.org</span><br></pre></td></tr></table></figure>
+<h1 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h1><p>最后，转载一张觉得挺棒的图片：</p>
+<p><img src="/images/git.png" alt=""></p>
+<hr>
+<p>更多 Git 常用命令可参考：<a href="http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html" target="_blank" rel="noopener">常用 Git 命令清单</a><br>或查阅官方文档：<a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener">Pro Git book</a></p>
+<hr>
+<p>本文链接：<a href="http://www.eyrefree.org/2015/04/09/2015-04-09-Git-Commands/">http://www.eyrefree.org/2015/04/09/2015-04-09-Git-Commands/</a></p>
+<p>如文中无特殊说明，本站均使用以下协议保护：<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/cn/" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎</a></p>
+
+    
+  </div>
+
+  
+      
+<!-- Gitalk评论插件通用代码 -->
+<div id="git"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+const gitalk = new Gitalk({
+  clientID: 'f0ba789df6609f62044d',
+  clientSecret: '75f0fc8ccefb72c7c8585ddc2a3f0663e69139f1',
+  repo: 'EFGitalk',
+  owner: 'EyreFree',
+  admin: ['EyreFree'],
+  // facebook-like distraction free mode
+  distractionFreeMode: false
+})
+gitalk.render('git')
+</script>
+<!-- Gitalk代码结束 -->
+
+
+
+  
+
+</article>
+
+
+   
+  <div class="text-center donation">
+    <div class="inner-donation">
+      <span class="btn-donation">支持一下</span>
+      <div class="donation-body">
+        <div class="tip text-center">给 EyreFree 投食，QAQ</div>
+        <ul>
+        
+          <li class="item">
+            
+            <img src="/AliPay.png" alt="">
+          </li>
+        
+          <li class="item">
+            
+            <img src="/WeChat.png" alt="">
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+   
+  <div class="box-prev-next clearfix">
+    <a class="show pull-left" href="/2013/11/08/Windows7-QT-Android/">
+        <i class="icon icon-angle-left"></i>
+    </a>
+    <a class="show pull-right" href="/2015/05/31/WordPress-Notes/">
+        <i class="icon icon-angle-right"></i>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/archives/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/category/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/tag/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/project/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              项目
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/link/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/about/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/atom.xml"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/search/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+    
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
