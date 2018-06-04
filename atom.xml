@@ -18,8 +18,8 @@
   
   <entry>
     <title>蜂鸟商家版 iOS 组件化 / 模块化实践总结</title>
-    <link href="http://www.eyrefree.org/LPDBusiness/"/>
-    <id>http://www.eyrefree.org/LPDBusiness/</id>
+    <link href="http://www.eyrefree.org/post/LPDBusiness/"/>
+    <id>http://www.eyrefree.org/post/LPDBusiness/</id>
     <published>2018-01-20T07:00:00.000Z</published>
     <updated>2018-01-21T16:08:23.388Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>Git 踩坑：Git Push 远端无分支不提示</title>
-    <link href="http://www.eyrefree.org/GitPush/"/>
-    <id>http://www.eyrefree.org/GitPush/</id>
+    <link href="http://www.eyrefree.org/post/GitPush/"/>
+    <id>http://www.eyrefree.org/post/GitPush/</id>
     <published>2017-12-25T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.988Z</updated>
     
@@ -71,8 +71,8 @@
   
   <entry>
     <title>利用 CodeBeat 为你在 GitHub 上的项目进行代码质量管理</title>
-    <link href="http://www.eyrefree.org/CodeBeat/"/>
-    <id>http://www.eyrefree.org/CodeBeat/</id>
+    <link href="http://www.eyrefree.org/post/CodeBeat/"/>
+    <id>http://www.eyrefree.org/post/CodeBeat/</id>
     <published>2017-12-13T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.987Z</updated>
     
@@ -96,8 +96,8 @@
   
   <entry>
     <title>AppStore 审核 macOS 应用踩坑记录</title>
-    <link href="http://www.eyrefree.org/MacAppStore/"/>
-    <id>http://www.eyrefree.org/MacAppStore/</id>
+    <link href="http://www.eyrefree.org/post/MacAppStore/"/>
+    <id>http://www.eyrefree.org/post/MacAppStore/</id>
     <published>2017-12-12T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.987Z</updated>
     
@@ -121,8 +121,8 @@
   
   <entry>
     <title>如何将 CocoaPods 库升级到 Swift 4</title>
-    <link href="http://www.eyrefree.org/PodsSwift4/"/>
-    <id>http://www.eyrefree.org/PodsSwift4/</id>
+    <link href="http://www.eyrefree.org/post/PodsSwift4/"/>
+    <id>http://www.eyrefree.org/post/PodsSwift4/</id>
     <published>2017-12-05T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.987Z</updated>
     
@@ -146,8 +146,8 @@
   
   <entry>
     <title>EFColorPicker - 一个纯 Swift 的轻量级 iOS 颜色选择器</title>
-    <link href="http://www.eyrefree.org/EFColorPicker/"/>
-    <id>http://www.eyrefree.org/EFColorPicker/</id>
+    <link href="http://www.eyrefree.org/post/EFColorPicker/"/>
+    <id>http://www.eyrefree.org/post/EFColorPicker/</id>
     <published>2017-10-09T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.987Z</updated>
     
@@ -171,8 +171,8 @@
   
   <entry>
     <title>EFResume - 一个普通的 Swift 简历模板</title>
-    <link href="http://www.eyrefree.org/EFResume/"/>
-    <id>http://www.eyrefree.org/EFResume/</id>
+    <link href="http://www.eyrefree.org/post/EFResume/"/>
+    <id>http://www.eyrefree.org/post/EFResume/</id>
     <published>2017-09-14T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.986Z</updated>
     
@@ -196,8 +196,8 @@
   
   <entry>
     <title>iOS Markdown 转换及预览</title>
-    <link href="http://www.eyrefree.org/EFMarkdown/"/>
-    <id>http://www.eyrefree.org/EFMarkdown/</id>
+    <link href="http://www.eyrefree.org/post/EFMarkdown/"/>
+    <id>http://www.eyrefree.org/post/EFMarkdown/</id>
     <published>2017-08-27T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.986Z</updated>
     
@@ -221,8 +221,8 @@
   
   <entry>
     <title>Swift 流水账：踩到一个 Enum 坑（并不是</title>
-    <link href="http://www.eyrefree.org/SwiftEnum/"/>
-    <id>http://www.eyrefree.org/SwiftEnum/</id>
+    <link href="http://www.eyrefree.org/post/SwiftEnum/"/>
+    <id>http://www.eyrefree.org/post/SwiftEnum/</id>
     <published>2017-08-15T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.986Z</updated>
     
@@ -247,8 +247,8 @@
   
   <entry>
     <title>GitHub Wiki 页面的添加和设置</title>
-    <link href="http://www.eyrefree.org/GitHubWiki/"/>
-    <id>http://www.eyrefree.org/GitHubWiki/</id>
+    <link href="http://www.eyrefree.org/post/GitHubWiki/"/>
+    <id>http://www.eyrefree.org/post/GitHubWiki/</id>
     <published>2017-07-06T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.985Z</updated>
     
@@ -272,8 +272,8 @@
   
   <entry>
     <title>GitHub 项目徽章的添加和设置</title>
-    <link href="http://www.eyrefree.org/GitHubBadge/"/>
-    <id>http://www.eyrefree.org/GitHubBadge/</id>
+    <link href="http://www.eyrefree.org/post/GitHubBadge/"/>
+    <id>http://www.eyrefree.org/post/GitHubBadge/</id>
     <published>2017-05-01T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.985Z</updated>
     
@@ -298,8 +298,8 @@
   
   <entry>
     <title>iOS 在 App 中使用自定义字体</title>
-    <link href="http://www.eyrefree.org/UIFontTTF/"/>
-    <id>http://www.eyrefree.org/UIFontTTF/</id>
+    <link href="http://www.eyrefree.org/post/UIFontTTF/"/>
+    <id>http://www.eyrefree.org/post/UIFontTTF/</id>
     <published>2017-03-23T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.985Z</updated>
     
@@ -325,8 +325,8 @@
   
   <entry>
     <title>利用 Travis-CI 让你在 GitHub 上的 CocoaPods 库持续构建</title>
-    <link href="http://www.eyrefree.org/TravisCI/"/>
-    <id>http://www.eyrefree.org/TravisCI/</id>
+    <link href="http://www.eyrefree.org/post/TravisCI/"/>
+    <id>http://www.eyrefree.org/post/TravisCI/</id>
     <published>2017-03-16T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.985Z</updated>
     
@@ -351,8 +351,8 @@
   
   <entry>
     <title>iOS 利用 NEHotspotHelper 获取 WiFi 列表</title>
-    <link href="http://www.eyrefree.org/HotspotHelper/"/>
-    <id>http://www.eyrefree.org/HotspotHelper/</id>
+    <link href="http://www.eyrefree.org/post/HotspotHelper/"/>
+    <id>http://www.eyrefree.org/post/HotspotHelper/</id>
     <published>2017-03-09T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.984Z</updated>
     
@@ -377,8 +377,8 @@
   
   <entry>
     <title>Swift 3 编写的图片分享应用</title>
-    <link href="http://www.eyrefree.org/VSCAM/"/>
-    <id>http://www.eyrefree.org/VSCAM/</id>
+    <link href="http://www.eyrefree.org/post/VSCAM/"/>
+    <id>http://www.eyrefree.org/post/VSCAM/</id>
     <published>2017-02-05T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.984Z</updated>
     
@@ -403,8 +403,8 @@
   
   <entry>
     <title>iOS 花式二维码生成和二维码识别</title>
-    <link href="http://www.eyrefree.org/EFQRCode/"/>
-    <id>http://www.eyrefree.org/EFQRCode/</id>
+    <link href="http://www.eyrefree.org/post/EFQRCode/"/>
+    <id>http://www.eyrefree.org/post/EFQRCode/</id>
     <published>2017-01-25T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.984Z</updated>
     
@@ -429,8 +429,8 @@
   
   <entry>
     <title>十分钟开发一款 iOS 表情包 App</title>
-    <link href="http://www.eyrefree.org/CodingEmoji/"/>
-    <id>http://www.eyrefree.org/CodingEmoji/</id>
+    <link href="http://www.eyrefree.org/post/CodingEmoji/"/>
+    <id>http://www.eyrefree.org/post/CodingEmoji/</id>
     <published>2016-11-24T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.984Z</updated>
     
@@ -454,8 +454,8 @@
   
   <entry>
     <title>iOS 为 App 添加 3D Touch 快捷菜单</title>
-    <link href="http://www.eyrefree.org/3DTouch/"/>
-    <id>http://www.eyrefree.org/3DTouch/</id>
+    <link href="http://www.eyrefree.org/post/3DTouch/"/>
+    <id>http://www.eyrefree.org/post/3DTouch/</id>
     <published>2016-09-22T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.983Z</updated>
     
@@ -479,8 +479,8 @@
   
   <entry>
     <title>OS X 下统计项目代码行数</title>
-    <link href="http://www.eyrefree.org/WrapCount/"/>
-    <id>http://www.eyrefree.org/WrapCount/</id>
+    <link href="http://www.eyrefree.org/post/WrapCount/"/>
+    <id>http://www.eyrefree.org/post/WrapCount/</id>
     <published>2016-07-19T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.983Z</updated>
     
@@ -505,8 +505,8 @@
   
   <entry>
     <title>Momentum：一个赏心悦目的应用</title>
-    <link href="http://www.eyrefree.org/Momentum/"/>
-    <id>http://www.eyrefree.org/Momentum/</id>
+    <link href="http://www.eyrefree.org/post/Momentum/"/>
+    <id>http://www.eyrefree.org/post/Momentum/</id>
     <published>2016-06-02T07:00:00.000Z</published>
     <updated>2018-01-21T16:01:16.983Z</updated>
     
